@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:77:"D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\vip\viplist.html";i:1514883788;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:90:"F:\phpstudy\WWW\sugooUp\admin\public/../application/index\view\marketing\addmarketing.html";i:1514940662;}*/ ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -72,6 +72,7 @@
  </ul>
  <ul>
   <li><a href="<?php echo url('index/marketing/index'); ?>"><i class="productCat"></i><em>营销管理</em></a></li>
+  <li><a href="<?php echo url('index/marketing/index'); ?>"><i class="productCat"></i><em>营销管理</em></a></li>
  </ul>
   <ul>
   <li><a href="<?php echo url('index/talk/index'); ?>"><i class="productCat"></i><em>评论管理</em></a></li>
@@ -83,112 +84,84 @@
 </div></div>
  <div id="dcMain">
    <!-- 当前位置 -->
-<div id="urHere">DouPHP 管理中心<b>></b><strong>操作记录</strong> </div>   <div id="manager" class="mainBox" style="height:auto!important;height:550px;min-height:550px;">
-    <h3>操作记录</h3>
-                    <table width="100%" border="0" cellpadding="8" cellspacing="0" class="tableBasic">
-     <tr>
-      <th width="30" align="center">编号</th>
-      <th width="150" align="left">操作时间</th>
-      <th width="100" align="center">操作者</th>
-      <th align="left">操作记录</th>
-      <th width="100" align="center">IP地址</th>
-     </tr>
-          <tr>
-      <td align="center">12</td>
-      <td>2016-02-26 20:53:17</td>
-      <td align="center">admin</td>
-      <td align="left">管理员登录: 登录成功！</td>
-      <td align="center">127.0.0.1</td>
-     </tr>
-          <tr>
-      <td align="center">11</td>
-      <td>2016-02-25 23:29:08</td>
-      <td align="center">admin</td>
-      <td align="left">管理员登录: 登录成功！</td>
-      <td align="center">127.0.0.1</td>
-     </tr>
-          <tr>
-      <td align="center">10</td>
-      <td>2016-02-25 13:48:48</td>
-      <td align="center">admin</td>
-      <td align="left">管理员登录: 登录成功！</td>
-      <td align="center">127.0.0.1</td>
-     </tr>
-          <tr>
-      <td align="center">9</td>
-      <td>2013-10-16 09:43:01</td>
-      <td align="center">admin</td>
-      <td align="left">编辑单页面: 营销网络</td>
-      <td align="center">127.0.0.1</td>
-     </tr>
-          <tr>
-      <td align="center">8</td>
-      <td>2013-10-16 09:42:58</td>
-      <td align="center">admin</td>
-      <td align="left">编辑单页面: 公司简介</td>
-      <td align="center">127.0.0.1</td>
-     </tr>
-          <tr>
-      <td align="center">7</td>
-      <td>2013-10-16 09:42:55</td>
-      <td align="center">admin</td>
-      <td align="left">编辑单页面: 企业荣誉</td>
-      <td align="center">127.0.0.1</td>
-     </tr>
-          <tr>
-      <td align="center">6</td>
-      <td>2013-10-16 09:42:39</td>
-      <td align="center">admin</td>
-      <td align="left">编辑文章分类: 公司动态</td>
-      <td align="center">127.0.0.1</td>
-     </tr>
-          <tr>
-      <td align="center">5</td>
-      <td>2013-10-16 09:42:36</td>
-      <td align="center">admin</td>
-      <td align="left">编辑商品分类: 电子数码</td>
-      <td align="center">127.0.0.1</td>
-     </tr>
-          <tr>
-      <td align="center">4</td>
-      <td>2013-10-16 09:42:33</td>
-      <td align="center">admin</td>
-      <td align="left">编辑单页面: 联系我们</td>
-      <td align="center">127.0.0.1</td>
-     </tr>
-          <tr>
-      <td align="center">3</td>
-      <td>2013-10-16 09:42:29</td>
-      <td align="center">admin</td>
-      <td align="left">编辑幻灯: 广告图片01</td>
-      <td align="center">127.0.0.1</td>
-     </tr>
-          <tr>
-      <td align="center">2</td>
-      <td>2013-10-16 09:42:25</td>
-      <td align="center">admin</td>
-      <td align="left">编辑导航: 公司简介</td>
-      <td align="center">127.0.0.1</td>
-     </tr>
-          <tr>
-      <td align="center">1</td>
-      <td>2013-10-16 09:42:20</td>
-      <td align="center">admin</td>
-      <td align="left">系统设置: 编辑成功</td>
-      <td align="center">127.0.0.1</td>
-     </tr>
-         </table>
-    <div class="pager">总计 12 个记录，共 1 页，当前第 1 页 | <a href="manager.php?rec=manager_log&page=1">第一页</a> 上一页 下一页 <a href="manager.php?rec=manager_log&page=1">最末页</a></div>           </div>
+<div id="urHere">DouPHP 管理中心<b>></b><strong>添加活动</strong> </div>   <div class="mainBox" style="height:auto!important;height:550px;min-height:550px;">
+            <h3><a href="<?php echo url('index/attr/index'); ?>" class="actionBtn">活动列表</a>活动列表</h3>
+    <form action="<?php echo url('index/cupon/add'); ?>" method="post">
+     <table width="100%" border="0" cellpadding="8" cellspacing="0" class="tableBasic">
+      <tr>
+       <td width="90" align="right">批次名称</td>
+       <td>
+        <input type="text" name="cu_number" value="" size="80" class="inpMain" />
+       </td>
+      </tr>
+      <tr>
+       <td width="90" align="right">批次类型</td>
+       <td>
+        <input type="text" name="cu_type" value="" size="80" class="inpMain" />
+       </td>
+      </tr>
+      <tr>
+       <td width="90" align="right">申请人</td>
+       <td>
+        <input type="text" name="mark_man" value="" size="80" class="inpMain" />
+       </td>
+      </tr>
+      <tr>
+       <td width="90" align="right">用途</td>
+       <td>
+        <input type="text" name="cu_use" value="" size="80" class="inpMain" />
+       </td>
+      </tr>
+       <tr>
+       <td width="90" align="right">审核人</td>
+       <td>
+        <input type="text" name="audit_man" value="" size="80" class="inpMain" />
+       </td>
+      </tr>
+      <tr>
+       <td width="90" align="right">面值</td>
+       <td>
+        <input type="text" name="cu_money" value="" size="80" class="inpMain" />
+       </td>
+      </tr>
+      <tr>
+       <td width="90" align="right">红包期限</td>
+       <td>
+        <input type="text" name="su_limit" value="" size="80" class="inpMain" />
+       </td>
+      </tr>
+      <tr>
+       <td width="90" align="right">是否可以转送</td>
+       <td>
+        <input type="text" name="su_limit" value="" size="80" class="inpMain" />
+       </td>
+      </tr>
+      <tr>
+       <td></td>
+       <td>
+        <!-- <input type="hidden" name="token" value="21307217" /> -->
+        <!-- <input type="hidden" name="id" value=""> -->
+        <input name="submit" class="btn" type="submit" value="提交" />
+       </td>
+      </tr>
+     </table>
+    </form>
+           </div>
  </div>
  <div class="clear"></div>
 <div id="dcFooter">
  <div id="footer">
   <div class="line"></div>
   <ul>
-   版权所有 © 2013-2015 漳州豆壳网络科技有限公司，并保留所有权利。
+   版权所有 © 2018-2020 北京速Go网络科技有限公司，并保留所有权利。
   </ul>
  </div>
 </div><!-- dcFooter 结束 -->
 <div class="clear"></div> </div>
 </body>
 </html>
+<script type="text/javascript">
+$(function(){
+  
+})
+</script>

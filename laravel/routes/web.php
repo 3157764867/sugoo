@@ -20,22 +20,11 @@ Route::get('/index','IndexController@index');
 
 //登录
 Route::get('/login','LoginController@index');
-Route::any('/loginDo','LoginController@loginDo');
-
 //注册
 Route::get('/regis','LoginController@regis');
-Route::any('/flash','LoginController@flash');
-Route::any('/addUser','LoginController@addUser');
-Route::any('/qqLogin','LoginController@qqLogin');
-Route::any('/getCode','LoginController@getCode');
-Route::any('/appendInfo','LoginController@appendInfo');
-Route::any('/appendUser','LoginController@appendUser');
-
 
 //个人中心主页
 Route::get('/user','UserController@index');
-
-//安全设置
 
 /*订单中心*/
 
@@ -59,27 +48,6 @@ Route::get('/userlink','UserController@userlink');
 
 //账户安全
 Route::get('/safe','UserController@safe');
-//安全管理
-
-//修改手机号
-Route::any('/updatePhone','UserController@updatePhone');
-//修改邮箱
-Route::any('/updateEmail','UserController@updateEmail');
-//添加 修改 身份信息
-Route::any('/updateCard','UserController@updateCard');
-//修改密码
-Route::any('/updatePassword','UserController@updatePassword');
-//修改支付密码
-Route::any('/updatePay','UserController@updatePay');
-//添加支付密码
-Route::any('/addPay','UserController@addPay');
-
-//安全管理
-
-
-
-
-
 //我的红包
 Route::get('/packet','UserController@packet');
 //资金管理
@@ -106,3 +74,14 @@ Route::get('/car','CarController@index');
 Route::get('/car_two','CarController@car2');
 //结算页面
 Route::get('/car_three','CarController@car3');
+
+// 用户注册赠送红包
+Route::any('/cupon','userCupon@give');
+// 获取用户对应的红包数据
+Route::any('/cuget','userCupon@getinfo');
+// 获取当前用户下的红包总个数与总金额
+Route::any('/cunum','userCupon@getnum');
+// 用户使用户红包
+Route::any('/cuuse','userCupon@usecupon');
+// 根据订单金额返回红包id和红包名称
+Route::any('/cuname','userCupon@cuname');

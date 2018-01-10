@@ -77,12 +77,16 @@
         </span>
         <!--End 所在收货地区 End-->
         <span class="fr">
+<<<<<<< HEAD
           @if(session('username'))
             <span class="fl">你好，{{session('username')}}
           @else
         	<span class="fl">你好，<a href='login'>请先登录</a> &nbsp; <a href="regis" style="color:#ff4e00;">免费注册</a>
           @endif
           &nbsp;|&nbsp;<a href="user">个人中心</a>&nbsp;|&nbsp;<a href="order">我的订单</a>&nbsp;|</span>
+=======
+        	<span class="fl">你好，请<a href="login">登录</a>&nbsp; <a href="regis" style="color:#ff4e00;">免费注册</a>&nbsp;|&nbsp;<a href="user">个人中心</a>&nbsp;|&nbsp;<a href="order">我的订单</a>&nbsp;|</span>
+>>>>>>> 36c55a3717d59fa34a4929e9da0bf04502e94f92
         	<span class="ss">
             	<div class="ss_list">
                 	<a href="#">收藏夹</a>

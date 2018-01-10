@@ -4,33 +4,25 @@
 		<div class="m_right">
             <p></p>
             <div class="mem_tit">账户安全</div>
-
-            <div class="m_des" id="phoneInfo" style="display:block;">
-                <table border="0" style="width:880px;"  cellspacing="0" cellpadding="0">
-                  <tr height="45">
-                    <td width="80" align="right">手机号 &nbsp; &nbsp;</td>
-                    <td><span id="myphone">{{$phone}}</span></td>
-                    <td style="float:right;"><button id="phone">修改</button></td>
-                  </tr>
-                </table>
-            </div>
-
-            <div class="m_des" id="updatePhone" style="display:none;">
+            <div class="m_des">
+                <form>
                 <table border="0" style="width:880px;"  cellspacing="0" cellpadding="0">
                   <tr height="45">
                     <td width="80" align="right">原手机 &nbsp; &nbsp;</td>
-                    <td> <input type="text" class="add_ipt" style="width:180px;" id="oldPhone"/>&nbsp; <font color="#ff4e00" id="old_status">*</font></td>
+                    <td><input type="text" value="" class="add_ipt" style="width:180px;" />&nbsp; <font color="#ff4e00">*</font></td>
                   </tr>
                   <tr height="45">
                     <td align="right">新手机 &nbsp; &nbsp;</td>
-                    <td><input type="text" class="add_ipt" style="width:180px;" id="newPhone"/>&nbsp; <font color="#ff4e00" id="new_status">*</font></td>
+                    <td><input type="text" value="" class="add_ipt" style="width:180px;" />&nbsp; <font color="#ff4e00">*</font></td>
                   </tr>
                   <tr height="50">
                     <td>&nbsp;</td>
-                    <td><input type="button" value="确认修改" class="btn_tj" id="p_submit"/> <input type="button" value="取消修改" class="btn_tj" id="p_reset"/></td>
+                    <td><input type="submit" value="确认修改" class="btn_tj" /></td>
                   </tr>
                 </table>
+                </form>
             </div>
+<<<<<<< HEAD
 
             <div class="m_des" id="updatePhone" style="display:none;">
                 <table border="0" style="width:880px;"  cellspacing="0" cellpadding="0">
@@ -45,11 +37,14 @@
                 </table>
             </div>
 
+=======
+>>>>>>> 36c55a3717d59fa34a4929e9da0bf04502e94f92
             
-
-            <div class="m_des" id="emailInfo">
+            <div class="m_des">
+                <form>
                 <table border="0" style="width:880px;"  cellspacing="0" cellpadding="0">
                   <tr height="45">
+<<<<<<< HEAD
                     <td width="80" align="right">邮箱 &nbsp; &nbsp;</td>
                     <td><span id="myemail">
                     @if(!empty($email))
@@ -61,58 +56,47 @@
                     </span></td>
                     <td style="float:right;" ><button class="email_up">添加</button></td>
                     @endif
+=======
+                    <td width="80" align="right">原邮箱 &nbsp; &nbsp;</td>
+                    <td><input type="text" value="" class="add_ipt" style="width:180px;" />&nbsp; <font color="#ff4e00">*</font></td>
+>>>>>>> 36c55a3717d59fa34a4929e9da0bf04502e94f92
                   </tr>
-                </table>
-            </div>
-
-             <div class="m_des" id="updateEmail" style="display:none">
-                <table border="0" style="width:880px;"  cellspacing="0" cellpadding="0">
                   <tr height="45">
                     <td align="right">新邮箱 &nbsp; &nbsp;</td>
-                    <td><input type="text" class="add_ipt" style="width:180px;" id="email"/>&nbsp; <font color="#ff4e00" id="e_status">*</font></td>
+                    <td><input type="text" value="" class="add_ipt" style="width:180px;" />&nbsp; <font color="#ff4e00">*</font></td>
                   </tr>
                   <tr height="50">
                     <td>&nbsp;</td>
-                    <td><input type="button" value="确认修改" class="btn_tj" id="e_submit"/> <input type="button" value="取消修改" class="btn_tj" id="e_reset"/></td>
+                    <td><input type="submit" value="确认修改" class="btn_tj" /></td>
                   </tr>
                 </table>
+                </form>
             </div>
-
-
-            <div class="m_des" id="passwordInfo">
-                <table border="0" style="width:880px;"  cellspacing="0" cellpadding="0">
-                  <tr height="45">
-                    <td width="80" align="right">密码 &nbsp; &nbsp;</td>
-                    <td><span id="myPassword">************</span></td>
-                    <td style="float:right;"><button id="password">修改</button></td>
-                  </tr>
-                </table>
-            </div>
-
-            <div class="m_des" id="updatePassword" style="display:none">
+            
+            <div class="m_des">
+                <form>
                 <table border="0" style="width:880px;"  cellspacing="0" cellpadding="0">
                   <tr height="45">
                     <td width="80" align="right">原密码 &nbsp; &nbsp;</td>
-                    <td><input type="password" class="add_ipt" style="width:180px;" id="oldPassword"/>&nbsp; <font color="#ff4e00" id="oldp_status">*</font></td>
+                    <td><input type="password" value="" class="add_ipt" style="width:180px;" />&nbsp; <font color="#ff4e00">*</font></td>
                   </tr>
                   <tr height="45">
                     <td align="right">新密码 &nbsp; &nbsp;</td>
-                    <td><input type="password" class="add_ipt" style="width:180px;" id="onePassword"/>&nbsp; <font color="#ff4e00" id="op_status">*</font></td>
+                    <td><input type="password" value="" class="add_ipt" style="width:180px;" />&nbsp; <font color="#ff4e00">*</font></td>
                   </tr>
                   <tr height="45">
                     <td align="right">确认密码 &nbsp; &nbsp;</td>
-                    <td><input type="password" class="add_ipt" style="width:180px;" id="twoPassword"/>&nbsp; <font color="#ff4e00" id="tp_status">*</font></td>
+                    <td><input type="password" value="" class="add_ipt" style="width:180px;" />&nbsp; <font color="#ff4e00">*</font></td>
                   </tr>
                   <tr height="50">
                     <td>&nbsp;</td>
-                    <td>
-                      <input type="button" value="确认修改" class="btn_tj" id="pwd_submit"/>
-                      <input type="button" value="取消操作" class="btn_tj" id="pwd_reset"/>
-                    </td>
+                    <td><input type="submit" value="确认修改" class="btn_tj" /></td>
                   </tr>
                 </table>
+                </form>
             </div>
 
+<<<<<<< HEAD
             <div class="m_des" id="cardInfo">
                 <table border="0" style="width:880px;"  cellspacing="0" cellpadding="0">
                   <tr height="45">
@@ -669,3 +653,6 @@
 
 
      @endsection
+=======
+     @endsection
+>>>>>>> 36c55a3717d59fa34a4929e9da0bf04502e94f92

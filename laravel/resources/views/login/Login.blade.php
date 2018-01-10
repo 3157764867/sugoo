@@ -53,7 +53,7 @@
 	<div class="login">
     	<div class="log_img"><img src="images/l_img.png" width="611" height="425" /></div>
 		<div class="log_c">
-        	<form action="loginDo" method="post">
+        	<form>
             <table border="0" style="width:370px; font-size:14px; margin-top:30px;" cellspacing="0" cellpadding="0">
               <tr height="50" valign="top">
               	<td width="55">&nbsp;</td>
@@ -64,18 +64,18 @@
               </tr>
               <tr height="70">
                 <td>用户名</td>
-                <td><input type="text" value="" class="l_user" name="username" /></td>
+                <td><input type="text" value="" class="l_user" /></td>
               </tr>
               <tr height="70">
                 <td>密&nbsp; &nbsp; 码</td>
-                <td><input type="password" value="" class="l_pwd" name="password" /></td>
+                <td><input type="password" value="" class="l_pwd" /></td>
               </tr>
               <tr>
               	<td>&nbsp;</td>
                 <td style="font-size:12px; padding-top:20px;">
                 	<span style="font-family:'宋体';" class="fl">
-                    	<a href="qqLogin"><img src="images/qq.jpg" style="height:30px;width:30px;" /></a>
-                  </span>
+                    	<label class="r_rad"><input type="checkbox" /></label><label class="r_txt">请保存我这次的登录信息</label>
+                    </span>
                     <span class="fr"><a href="#" style="color:#ff4e00;">忘记密码</a></span>
                 </td>
               </tr>

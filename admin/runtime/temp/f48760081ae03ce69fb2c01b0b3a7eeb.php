@@ -1,4 +1,5 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:85:"D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\logistics\logistics.html";i:1514883506;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:79:"F:\phpstudy\WWW\sugooUp\admin\public/../application/index\view\index\index.html";i:1514892111;}*/ ?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -81,108 +82,59 @@
   <li><a href="<?php echo url('index/Manager/log'); ?>"><i class="managerLog"></i><em>操作记录</em></a></li>
  </ul>
 </div></div>
- <div id="dcMain">
-   <!-- 当前位置 -->
-<div id="urHere">DouPHP 管理中心<b>></b><strong>添加属性</strong> </div>   <div class="mainBox" style="height:auto!important;height:550px;min-height:550px;">
-            <h3><a href="<?php echo url('index/attr/add'); ?>" class="actionBtn">属性列表</a>属性品牌</h3>
-    <form action="product.php?rec=insert" method="post" enctype="multipart/form-data">
-     <table width="100%" border="0" cellpadding="8" cellspacing="0" class="tableBasic">
-      <tr>
-       <td width="90" align="right">属性名称</td>
-       <td>
-        <input type="text" name="name" value="" size="80" class="inpMain" />
-       </td>
-      </tr>
-      <tr>
-       <td align="right">属性分类</td>
-       <td>
-        <select name="cat_id">
-         <option value="0">未分类</option>
-                           <option value="1"> 电子数码</option>
-                                    <option value="4">- 智能手机</option>
-                                    <option value="5">- 平板电脑</option>
-                                    <option value="2"> 家居百货</option>
-                                    <option value="3"> 母婴用品</option>
-                          </select>
-       </td>
-      </tr>
-      <tr>
-       <td align="right">属性价格</td>
-       <td>
-        <input type="text" name="price" value="0" size="40" class="inpMain" />
-       </td>
-      </tr>
-            <tr>
-       <td align="right" valign="top">品牌描述</td>
-       <td>
-        <!-- KindEditor -->
-			<link rel="stylesheet" href="js/kindeditor/themes/default/default.css" />
-			<link rel="stylesheet" href="js/kindeditor/plugins/code/prettify.css" />
-			<script charset="utf-8" src="js/kindeditor/kindeditor.js"></script>
-			<script charset="utf-8" src="js/kindeditor/lang/zh_CN.js"></script>
-			<script charset="utf-8" src="js/kindeditor/plugins/code/prettify.js"></script>
-        <script>
-					KindEditor.ready(function(K) {
-						var editor1 = K.create('textarea[name="content"]', {
-							cssPath : '../plugins/code/prettify.css',
-							uploadJson : '../php/upload_json.php',
-							fileManagerJson : '../php/file_manager_json.php',
-							allowFileManager : true,
-							afterCreate : function() {
-								var self = this;
-								K.ctrl(document, 13, function() {
-									self.sync();
-									K('form[name=example]')[0].submit();
-								});
-								K.ctrl(self.edit.doc, 13, function() {
-									self.sync();
-									K('form[name=example]')[0].submit();
-								});
-							}
-						});
-						prettyPrint();
-					});
-			</script>
-        <!-- /KindEditor -->
-        <textarea id="content" name="content" style="width:780px;height:400px;" class="textArea"></textarea>
-       </td>
-      </tr>
-      <tr>
-       <td align="right">缩略图</td>
-       <td>
-        <input type="file" name="image" size="38" class="inpFlie" />
-        <img src="images/icon_no.png"></td>
-      </tr>
-      <tr>
-       <td align="right">关键字</td>
-       <td>
-        <input type="text" name="keywords" value="" size="50" class="inpMain" />
-       </td>
-      </tr>
-      <tr>
-       <td align="right">简单描述</td>
-       <td>
-        <input type="text" name="description" value="" size="50" class="inpMain" />
-       </td>
-      </tr>
-      <tr>
-       <td></td>
-       <td>
-        <input type="hidden" name="token" value="21307217" />
-        <input type="hidden" name="id" value="">
-        <input name="submit" class="btn" type="submit" value="提交" />
-       </td>
-      </tr>
-     </table>
-    </form>
-           </div>
+ <div id="dcMain"> <!-- 当前位置 -->
+<div id="urHere">DouPHP 管理中心</div>  <div id="index" class="mainBox" style="padding-top:18px;height:auto!important;height:550px;min-height:550px;">
+      
+    
+   <div id="douApi"></div>
+      <div class="indexBox">
+    
+    
+   </div>
+   <table width="100%" border="0" cellspacing="0" cellpadding="0" class="indexBoxTwo">
+    <tr>
+     <td width="65%" valign="top" class="pr">
+      <div class="indexBox">
+       <div class="boxTitle">网站基本信息</div>
+       <ul>
+        <table width="100%" border="0" cellspacing="0" cellpadding="7" class="tableBasic">
+         <tr>
+          <td>商品总数：</td>
+          <td><strong>15</strong></td>
+         </tr>
+        </table>
+       </ul>
+      </div>
+     </td>
+     <td valign="top" class="pl">
+      <div class="indexBox">
+       <div class="boxTitle">管理员  登录记录</div>
+       <ul>
+        <table width="100%" border="0" cellspacing="0" cellpadding="7" class="tableBasic">
+         <tr>
+          <th width="45%">管理员</th>
+          <th width="55%">操作时间</th>
+         </tr>
+                  <tr>
+          <td align="center">tnw</td>
+          <td align="center">2016-02-25 23:29:08</td>
+         </tr>
+        
+                 </table>
+       </ul>
+      </div>
+     </td>
+    </tr>
+   </table>
+    
+  </div>
  </div>
  <div class="clear"></div>
 <div id="dcFooter">
  <div id="footer">
   <div class="line"></div>
   <ul>
-   版权所有 © 2013-2015 漳州豆壳网络科技有限公司，并保留所有权利。
+   版权所有 © 2018-2020 速Go网络科技有限公司，并保留所有权利。
   </ul>
  </div>
 </div><!-- dcFooter 结束 -->

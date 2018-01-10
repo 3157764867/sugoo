@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:88:"F:\phpstudy\WWW\sugoo\admin\public/../application/index\view\marketing\addmarketing.html";i:1514940662;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:80:"F:\phpstudy\WWW\sugoo\admin\public/../application/index\view\cupon\addcupon.html";i:1515200897;}*/ ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -32,68 +32,18 @@
  </div>
 </div>
 <!-- dcHead 结束 --> <div id="dcLeft"><div id="menu">
- <ul class="top">
-  <li><a href="<?php echo url('index/index/index'); ?>"><i class="home"></i><em>管理首页</em></a></li>
- </ul>
  <ul>
-  <li><a href="<?php echo url('index/system/index'); ?>"><i class="system"></i><em>系统设置</em></a></li>
-  <li><a href="<?php echo url('index/show/index'); ?>"><i class="show"></i><em>首页幻灯广告</em></a></li>
- </ul>
-   <ul>
-  <li><a href="<?php echo url('index/goods/index'); ?>"><i class="productCat"></i><em>商品管理</em></a></li>
- </ul>
-  <ul>
-  <li><a href="<?php echo url('index/Category/index'); ?>"><i class="productCat"></i><em>商品分类</em></a></li>
- </ul>
-  <ul>
-  <li><a href="<?php echo url('index/attr/index'); ?>"><i class="productCat"></i><em>商品属性</em></a></li>
- </ul>
-  <ul>
-  <li><a href="<?php echo url('index/brand/index'); ?>"><i class="productCat"></i><em>商品品牌</em></a></li>
- </ul>
- <ul>
-  <li><a href="<?php echo url('index/vip/index'); ?>"><i class="productCat"></i><em>会员管理</em></a></li>
-  <li><a href="<?php echo url('index/vip/log'); ?>"><i class="product"></i><em>会员列表</em></a></li>
- </ul>
- <ul>
-  <li><a href="<?php echo url('index/order/index'); ?>"><i class="productCat"></i><em>订单管理</em></a></li>
- </ul>
- <ul>
-  <li><a href="<?php echo url('index/logistics/index'); ?>"><i class="productCat"></i><em>物流管理</em></a></li>
- </ul>
- <ul>
-  <li><a href="<?php echo url('index/trading/index'); ?>"><i class="productCat"></i><em>交易管理</em></a></li>
- </ul>
- <ul>
-  <li><a href="<?php echo url('index/pay/index'); ?>"><i class="productCat"></i><em>支付管理</em></a></li>
- </ul>
- <ul>
-  <li><a href="<?php echo url('index/money/index'); ?>"><i class="productCat"></i><em>平台资金管理</em></a></li>
- </ul>
- <ul>
-  <li><a href="<?php echo url('index/marketing/index'); ?>"><i class="productCat"></i><em>营销管理</em></a></li>
-  <li><a href="<?php echo url('index/marketing/index'); ?>"><i class="productCat"></i><em>营销管理</em></a></li>
- </ul>
-  <ul>
-  <li><a href="<?php echo url('index/talk/index'); ?>"><i class="productCat"></i><em>评论管理</em></a></li>
- </ul>
-   <ul class="bot">
-  <li><a href="<?php echo url('index/Manager/index'); ?>"><i class="manager"></i><em>网站管理员</em></a></li>
-  <li><a href="<?php echo url('index/Manager/log'); ?>"><i class="managerLog"></i><em>操作记录</em></a></li>
+  <li><a href="<?php echo url('index/marketing/index'); ?>"><i class="productCat"></i><em>活动审核</em></a></li>
+  <li><a href="<?php echo url('index/cupon/index'); ?>"><i class="productCat"></i><em>红包管理</em></a></li>
+  <li><a href="<?php echo url('index/marketing/index'); ?>"><i class="productCat"></i><em>秒杀活动</em></a></li>
  </ul>
 </div></div>
  <div id="dcMain">
    <!-- 当前位置 -->
-<div id="urHere">DouPHP 管理中心<b>></b><strong>添加活动</strong> </div>   <div class="mainBox" style="height:auto!important;height:550px;min-height:550px;">
-            <h3><a href="<?php echo url('index/attr/index'); ?>" class="actionBtn">活动列表</a>活动列表</h3>
+<div id="urHere">DouPHP 管理中心<b>></b><strong>添加红包</strong> </div>   <div class="mainBox" style="height:auto!important;height:550px;min-height:550px;">
+            <h3><a href="<?php echo url('index/cupon/index'); ?>" class="actionBtn">红包列表</a>红包列表</h3>
     <form action="<?php echo url('index/cupon/add'); ?>" method="post">
      <table width="100%" border="0" cellpadding="8" cellspacing="0" class="tableBasic">
-      <tr>
-       <td width="90" align="right">批次名称</td>
-       <td>
-        <input type="text" name="cu_number" value="" size="80" class="inpMain" />
-       </td>
-      </tr>
       <tr>
        <td width="90" align="right">批次类型</td>
        <td>
@@ -131,9 +81,16 @@
        </td>
       </tr>
       <tr>
+       <td width="90" align="right">红包数量</td>
+       <td>
+        <input type="text" name="cu_num" value="" size="80" class="inpMain" />
+       </td>
+      </tr>
+      <tr>
        <td width="90" align="right">是否可以转送</td>
        <td>
-        <input type="text" name="su_limit" value="" size="80" class="inpMain" />
+        <input type="radio" name="is_give" value="0" size="80" checked/>是
+        <input type="radio" name="is_give" value="1" size="80"/>否
        </td>
       </tr>
       <tr>
@@ -141,7 +98,7 @@
        <td>
         <!-- <input type="hidden" name="token" value="21307217" /> -->
         <!-- <input type="hidden" name="id" value=""> -->
-        <input name="submit" class="btn" type="submit" value="提交" />
+        <input class="btn" type="submit" value="提交" />
        </td>
       </tr>
      </table>
@@ -160,8 +117,5 @@
 <div class="clear"></div> </div>
 </body>
 </html>
-<script type="text/javascript">
-$(function(){
-  
-})
+
 </script>

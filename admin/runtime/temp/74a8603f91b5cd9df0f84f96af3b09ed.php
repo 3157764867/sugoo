@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:73:"F:\phpstudy\WWW\sugoo\admin\public/../application/index\view\pay\pay.html";i:1515496572;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:73:"F:\phpstudy\WWW\sugoo\admin\public/../application/index\view\pay\pay.html";i:1514882320;}*/ ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>

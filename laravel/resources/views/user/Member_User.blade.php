@@ -7,11 +7,16 @@
                   <tr valign="top">
                     <td width="115"><img src="images/user.jpg" width="90" height="90" /></td>
                     <td>
-                    	<div class="m_user">{{$user['username']}}</div>
+                    	<div class="m_user">TRACY</div>
                         <p>
                             等级：注册用户 <br />
-                            上一次登录时间:{{$user['login_time']}}<br />
+                            <font color="#ff4e00">您还差 270 积分达到 分红100</font><br />
+                            上一次登录时间: 2015-09-28 18:19:47<br />
+                            您还没有通过邮件认证 <a href="#" style="color:#ff4e00;">点此发送认证邮件</a>
                         </p>
+                        <div class="m_notice">
+                        	用户中心公告！
+                        </div>
                     </td>
                   </tr>
                 </table>	
@@ -22,10 +27,10 @@
               <tr>
                 <td width="33%">用户等级：<span style="color:#555555;">普通会员</span></td>
                 <td width="33%">消费金额：<span>￥200元</span></td>
-                <td width="33%">现有积分：<span>99R</span></td>
+                <td width="33%">返还积分：<span>99R</span></td>
               </tr>
               <tr>
-                <td>账户余额：<span>￥{{$user['u_money']}}元</span></td></td>
+                <td>账户余额：<span>￥200元</span></td></td>
                 <td>红包个数：<span style="color:#555555;">3个</span></td></td>
                 <td>红包价值：<span>￥50元</span></td></td>
               </tr>
@@ -39,10 +44,11 @@
             <div class="mem_t">账号信息</div>
             <table border="0" class="mon_tab" style="width:870px; margin-bottom:20px;" cellspacing="0" cellpadding="0">
               <tr>
-                <td width="40%">用户ID：<span style="color:#555555;">{{$user['u_id']}}</span></td>
+                <td width="40%">用户ID：<span style="color:#555555;">12345678</span></td>
                 <td width="60%">邀请人：<span style="color:#555555;">邀请人姓名</span></td>
               </tr>
               <tr>
+<<<<<<< HEAD
                 <td>电&nbsp; &nbsp; 话：<span style="color:#555555;">
                 @if(!empty($user['phone']))
                   {{$user['phone']}}
@@ -67,6 +73,14 @@
                 @endif 
                 </span></td>
                 <td>注册时间：<span style="color:#555555;">{{$user['regis_time']}}</span></td>
+=======
+                <td>电&nbsp; &nbsp; 话：<span style="color:#555555;">1861111111</span></td>
+                <td>邮&nbsp; &nbsp; 箱：<span style="color:#555555;">12345678@qq.com</span></td>
+              </tr>
+              <tr>
+                <td>身份证号：<span style="color:#555555;">522555123456789</span></td>
+                <td>注册时间：<span style="color:#555555;">2015-10-10</span></td>
+>>>>>>> 36c55a3717d59fa34a4929e9da0bf04502e94f92
               </tr>
             </table> 
         </div>

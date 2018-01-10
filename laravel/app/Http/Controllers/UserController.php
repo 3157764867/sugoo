@@ -2,25 +2,14 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests;
-use Request,Redirect,Session;
-use Illuminate\Support\Facades\Cookie;
-use \App\Users;
+use Illuminate\Http\Request;
 
 class UserController extends Controller
 {
 	//个人中心首页
     public function index()
     {
-        if(!empty(session('uid')))
-        {
-            $user=$this->userMsgInfo();
-    	    return view('user/Member')->with('user',$user);
-        }
-        else
-        {
-            return Redirect::to('login');
-        }
+    	return view('user/Member');
     }
 
     //我的订单
@@ -38,32 +27,29 @@ class UserController extends Controller
     //用户详情展示
     public function userinfo()
     {
-        $user=$this->userMsgInfo();
-    	return view('user/Member_User')->with('user',$user);
+    	return view('user/Member_User');
     }
-
-    //获取所有用户相关信息
-    public function userMsgInfo(){
-        $Users = new Users;
-        $userinfo = $Users->getUserMsg(); 
-        return json_decode($userinfo,true);
-    }
-
-
-
     //我的收藏
     public function usercollect()
     {
     	return view('user/Member_Collect');
     }
+<<<<<<< HEAD
 
     //我的留言
+=======
+    //用户信息
+>>>>>>> 36c55a3717d59fa34a4929e9da0bf04502e94f92
     public function usermsg()
     {
         return view('user/Member_Msg');
     }
+<<<<<<< HEAD
 
     //我的邀请链接
+=======
+    //我的收藏
+>>>>>>> 36c55a3717d59fa34a4929e9da0bf04502e94f92
     public function userlink()
     {
         return view('user/Member_Links');
@@ -72,6 +58,7 @@ class UserController extends Controller
      //账户安全
     public function safe()
     {
+<<<<<<< HEAD
             $Users = new Users;
             $userinfo = $Users->getUserInfo();
             return view('user/Member_Safe')->with([
@@ -110,35 +97,13 @@ class UserController extends Controller
          $Users = new Users;
          return json_encode($Users->upPassword($data));
          // return json_encode($data['onePassword']);
+=======
+        return view('user/Member_Safe');
+>>>>>>> 36c55a3717d59fa34a4929e9da0bf04502e94f92
     }
-
-    //修改支付密码
-    public function updatePay(){
-        $data=Request::all();
-        $Users = new Users;
-        return json_encode($Users->upPay($data));
-    }
-
-    //添加支付密码
-    public function addPay(){
-        $pay_pwd=Request::get('addPay1');
-        $Users = new Users;
-        return json_encode($Users->addPayPwd($pay_pwd));
-    }
-
-
-    //账户安全
-
-
-
-
-
-
-
     //我的红包
     public function packet()
     {
-        // $data=$this->hongbao();
         return view('user/Member_Packet');
     }
     //资金管理
@@ -151,11 +116,13 @@ class UserController extends Controller
     {
         return view('user/Member_Money_Charge');
     }
-    
-    //支付信息
+    //提现申请
+     Public function cash()
+    {
+        return view('user/Member_Cash');
+    }
     Public function pay()
     {
         return view('user/Member_Money_Pay');
     }
-
 }
