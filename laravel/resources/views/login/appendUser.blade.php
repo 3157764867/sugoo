@@ -57,6 +57,10 @@
                 <td align="right"><font color="#ff4e00">*</font>&nbsp;确认密码 &nbsp;</td>
                 <td><input type="password" value="" class="l_pwd two_pwd" name="two" /><span class="two_status"></span></td>
               </tr>
+              <tr height="50">
+                <td align="right"><font color="#ff4e00">*</font>&nbsp;手机 &nbsp;</td>
+                <td><input type="text" value="" class="l_tel phone" name="phone" /><span class="phone_status"></span></td>
+              </tr>
               <tr height="60">
                 <td>&nbsp;</td>
                 <td><input type="submit" value="确定" class="log_btn register" /></td>
@@ -124,6 +128,16 @@
          }
     })
 
+  // 手机号验证
+  $(".phone").blur(function(){
+        var reg =/^[1][3,4,5,7,8,9][0-9]{9}$/;
+        var inputval = $(".phone").val();
+         if(!reg.test(inputval)){
+            $(".phone_status").html("请输入正确的手机号");
+         }else{
+            $(".phone_status").html('');
+         }
+    })
 
   function checktwo(){
     var one = $(".one_pwd").val();
@@ -142,12 +156,13 @@
         var two_pwd = $(".two_pwd").val();
         var one_pwd = $(".one_pwd").val();
         var username = $(".username").val();
-        if(two_pwd!='' && one_pwd!='' && username!=''){
+        var phone =$(".phone").val();
+        if(two_pwd!='' && one_pwd!='' && username!='' && phone!=''){
              $.ajax({
                   type: "POST", //用POST方式传输
                   dataType: "json", //数据格式:JSON
                   url:'appendUser', //目标地址
-                  data:{"password":one_pwd,"username":username},
+                  data:{"password":one_pwd,"username":username,'phone':phone},
                   success: function (msg){
                       // console.log(msg);
                       if(msg['error'] == '200'){

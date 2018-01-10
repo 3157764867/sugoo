@@ -9,7 +9,7 @@ use \App\Users;
 
 class UserController extends Controller
 {
-	//个人中心
+	//个人中心首页
     public function index()
     {
         if(!empty(session('uid')))
@@ -22,17 +22,20 @@ class UserController extends Controller
             return Redirect::to('login');
         }
     }
+
     //我的订单
     public function order()
     {
     	return view('user/Member_Order');
     }
+
     //收获地址
     public function address()
     {
     	return view('user/Member_Address');
     }
-    //用户信息
+
+    //用户详情展示
     public function userinfo()
     {
         $user=$this->userMsgInfo();
@@ -53,16 +56,19 @@ class UserController extends Controller
     {
     	return view('user/Member_Collect');
     }
+
     //我的留言
     public function usermsg()
     {
         return view('user/Member_Msg');
     }
+
     //我的邀请链接
     public function userlink()
     {
         return view('user/Member_Links');
     }
+
      //账户安全
     public function safe()
     {
@@ -75,7 +81,6 @@ class UserController extends Controller
                     'pay_pwd'=>$userinfo->pay_pwd,
             ]);
     }
-
 
     //修改手机号
     public function updatePhone()

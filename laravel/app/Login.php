@@ -138,6 +138,7 @@ class Login extends Model
     			'login_time'=>date("Y-m-d H:i:s"),
     			'regis_time'=>date("Y-m-d H:i:s"),
     			'u_openid'=>$openid,
+    			'phone'=>$data['phone'],
     		];
     		$res = DB::table('su_user')->insertGetId($addinfo);
     		if($res)

@@ -32,14 +32,35 @@
                 </table>
             </div>
 
+            <div class="m_des" id="updatePhone" style="display:none;">
+                <table border="0" style="width:880px;"  cellspacing="0" cellpadding="0">
+                  <tr height="45">
+                    <td align="right">新手机 &nbsp; &nbsp;</td>
+                    <td><input type="text" class="add_ipt" style="width:180px;" id="newPhone"/>&nbsp; <font color="#ff4e00" id="new_status">*</font></td>
+                  </tr>
+                  <tr height="50">
+                    <td>&nbsp;</td>
+                    <td><input type="button" value="确认修改" class="btn_tj" id="p_submit"/> <input type="button" value="取消修改" class="btn_tj" id="p_reset"/></td>
+                  </tr>
+                </table>
+            </div>
+
             
 
             <div class="m_des" id="emailInfo">
                 <table border="0" style="width:880px;"  cellspacing="0" cellpadding="0">
                   <tr height="45">
                     <td width="80" align="right">邮箱 &nbsp; &nbsp;</td>
-                    <td><span id="myemail">{{$email}}</span></td>
-                    <td style="float:right;" ><button id="email_up">修改</button></td>
+                    <td><span id="myemail">
+                    @if(!empty($email))
+                        {{$email}}
+                    </span></td>
+                    <td style="float:right;" ><button class="email_up">修改</button></td>
+                    @else
+                    还未填写邮箱
+                    </span></td>
+                    <td style="float:right;" ><button class="email_up">添加</button></td>
+                    @endif
                   </tr>
                 </table>
             </div>
@@ -138,11 +159,11 @@
                     @if(!empty($pay_pwd))
                       <span class="myPay">已设置</span>   
                     </td>
-                    <td style="float:right;" ><button class="paysos payUp">修改</button></td>
+                    <td style="float:right;" ><button class="payUp">修改</button></td>
                     @else
                         <span class="myPay">未设置支付密码</span>
                     </td>
-                    <td style="float:right;"><button class="paysos addPay">设置支付密码</button></td> 
+                    <td style="float:right;"><button class="addPayone" id="paysos">设置支付密码</button></td> 
                     @endif
                   </tr>
                 </table>
@@ -265,7 +286,7 @@
 
      <script>
       //显示修改邮箱
-       $("#email_up").click(function(){
+       $(".email_up").click(function(){
          document.getElementById("emailInfo").style.display="none";
          document.getElementById("updateEmail").style.display="block";
        });
@@ -300,6 +321,7 @@
                       if(msg['error'] == '200'){
                           alert(msg['reason']);
                           $("#myemail").html(email);
+                          $(".email_up").html('修改');
                           $("#email").val('');
                           document.getElementById("emailInfo").style.display="block";
                           document.getElementById("updateEmail").style.display="none";
@@ -571,7 +593,7 @@
 
      <script>
       //显示修改支付密码
-       $(".addPay").click(function(){
+       $(".addPayone").click(function(){
          document.getElementById("payInfo").style.display="none";
          document.getElementById("addPays").style.display="block";
        });
@@ -623,8 +645,6 @@
         $("#add_submit").click(function(){
           var addPay1 = $("#addPay1").val();
           var addPay2 = $("#addPay2").val();
-
-
           if(addPay1!='' && addPay2!='' && checkAddPay()!=false){
             // alert(1);
             $.ajax({
@@ -635,13 +655,7 @@
                   success: function (msg){
                       if(msg['error'] == '200'){
                           alert(msg['reason']);
-                          $("#addPay1").val('');
-                          $("#addPay2").val('');
-                          $(".myPay").html('已设置');
-                          $(".addPay").html('修改');
-                          $(".paysos").addClass('payUp').removaClass('addPay');
-                          document.getElementById("payInfo").style.display="block";
-                          document.getElementById("addPays").style.display="none";
+                          window.location.href="safe";
                       }else{
                           alert(msg['reason']);
                       }
