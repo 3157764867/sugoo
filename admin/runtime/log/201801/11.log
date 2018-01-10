@@ -124,3 +124,39 @@
 [ sql ] [ DB ] CONNECT:[ UseTime:0.001676s ] mysql:host=127.0.0.1;port=3306;dbname=shop_mall;charset=utf8
 [ sql ] [ SQL ] SHOW COLUMNS FROM `su_cupon_batch` [ RunTime:0.041834s ]
 [ sql ] [ SQL ] SELECT * FROM `su_cupon_batch` WHERE  `cu_id` = 1 LIMIT 1 [ RunTime:0.035414s ]
+---------------------------------------------------------------
+[ 2018-01-11T07:17:34+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/public/index/cupon/index.html
+[ info ] www.sugo.com/admin/public/index/cupon/index.html [运行时间：0.159042s][吞吐率：6.29req/s] [内存消耗：2,263.05kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpstudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cupon',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.sugo.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cupon->index[ F:\phpstudy\WWW\sugoo\admin\application\index\controller\Cupon.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpstudy\WWW\sugoo\admin\public/../application/index\view\cupon\cupon.html [ array (
+  0 => 'page_info',
+  1 => 'page_str',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002478s ] mysql:host=127.0.0.1;port=3306;dbname=shop_mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `su_cupon_batch` [ RunTime:0.047136s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `su_cupon_batch` LIMIT 1 [ RunTime:0.001236s ]
+[ sql ] [ SQL ] SELECT * FROM `su_cupon_batch` ORDER BY cu_id asc LIMIT 0,3 [ RunTime:0.001148s ]
