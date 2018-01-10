@@ -45,15 +45,33 @@
               </tr>
               <tr>
                 <td class="td_l b_none">身份证号：</td>
-                <td>{{$user['id_card']}}</td>
+                <td>
+                @if(!empty($user['id_card']))
+                  {{$user['id_card']}}
+                @else
+                  未设置
+                @endif
+                </td>
               </tr>
               <tr>
                 <td class="td_l b_none">电  话：</td>
-                <td>{{$user['phone']}}</td>
+                <td>
+                @if(!empty($user['phone']))   
+                  {{$user['phone']}}
+                @else
+                  未设置
+                @endif
+                </td>
               </tr>
               <tr>
                 <td class="td_l">邮   箱： </td>
-                <td>{{$user['email']}}</td>
+                <td>
+                  @if(!empty($user['email']))   
+                    {{$user['email']}}
+                  @else
+                    未设置
+                  @endif
+                </td>
               </tr>
               <tr>
                 <td class="td_l b_none">注册时间：</td>

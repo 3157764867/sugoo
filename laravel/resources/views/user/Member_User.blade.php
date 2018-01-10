@@ -43,11 +43,29 @@
                 <td width="60%">邀请人：<span style="color:#555555;">邀请人姓名</span></td>
               </tr>
               <tr>
-                <td>电&nbsp; &nbsp; 话：<span style="color:#555555;">{{$user['phone']}}</span></td>
-                <td>邮&nbsp; &nbsp; 箱：<span style="color:#555555;">{{$user['email']}}</span></td>
+                <td>电&nbsp; &nbsp; 话：<span style="color:#555555;">
+                @if(!empty($user['phone']))
+                  {{$user['phone']}}
+                @else
+                  未设置
+                @endif
+                </span></td>
+                <td>邮&nbsp; &nbsp; 箱：<span style="color:#555555;">
+                @if(!empty($user['email']))
+                  {{$user['email']}}
+                @else
+                  未设置
+                @endif
+                </span></td>
               </tr>
               <tr>
-                <td>身份证号：<span style="color:#555555;">{{$user['id_card']}}</span></td>
+                <td>身份证号：<span style="color:#555555;">
+                @if(!empty($user['id_card']))
+                  {{$user['id_card']}}
+                @else
+                   未设置
+                @endif 
+                </span></td>
                 <td>注册时间：<span style="color:#555555;">{{$user['regis_time']}}</span></td>
               </tr>
             </table> 
