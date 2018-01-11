@@ -1,0 +1,234 @@
+---------------------------------------------------------------
+[ 2018-01-03T08:52:51+08:00 ] 127.0.0.1 127.0.0.1 GET /08btwo/admin/public/
+[ info ] www.localhost.com/08btwo/admin/public/ [运行时间：0.472336s][吞吐率：2.12req/s] [内存消耗：1,510.13kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\08btwo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=4597354496; XSRF-TOKEN=eyJpdiI6IjF5UUVNSHorNDdVb1JtcGVWT2V2SHc9PSIsInZhbHVlIjoiSmsxZERoSHFOejArTDhxV0NkaSt2MUVhOFNvbElHN2wwTE5cL293d3R0TzN3OTkzamV5Qkh2V2xTbHFvQ0psS2pWOFhDRURkRnlPMmk3TVQ2N2s2aGJ3PT0iLCJtYWMiOiIyNGY4OTFmNjMzNGZhNzBjMWUyMGFlNDBlZDIyZmEzZjhkZjNkYzRjNjA4N2Y5ZjhmODQwZjEwZDQ5MDJiZTFkIn0%3D; laravel_session=eyJpdiI6IkpsWm9qdDd5MHV0ZnU2T1VLZTRzelE9PSIsInZhbHVlIjoiekNRbHZIMnNPSVczeVFqUDZYcnhjMlhoMjdicnUrSDNRRk1CYnBaZVU0VWY0ZjRNZ0NMdFMxWnlsVnFWRWIzRTFhNWRWSWRBMTVINVUyUzdpMmx1b0E9PSIsIm1hYyI6ImExYWNiNGRhODM1NzI4MzI0NzBlODNmMTRhNDA1NGIzMWU1YmQwM2NlNzcwNWI0Nzk3YzE2Y2JhOGY2YTMwMTEifQ%3D%3D',
+  'referer' => 'http://www.localhost.com/08btwo/admin/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => 'www.localhost.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\08btwo\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\08btwo\admin\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-03T09:12:00+08:00 ] 127.0.0.1 127.0.0.1 GET /08btwo/admin/public/
+[ info ] www.localhost.com/08btwo/admin/public/ [运行时间：0.248662s][吞吐率：4.02req/s] [内存消耗：1,387.38kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\08btwo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=4597354496; XSRF-TOKEN=eyJpdiI6IjFEcit0QVNCckRFankwZTJFaGxTQWc9PSIsInZhbHVlIjoieFNcL2dFNFJpcWtjQ0R2eTZReTlJdW9wTzZES2w5S0J5eUp5ZlVxcEwxS1Q3WGlSOVloTnh0TDlLdWh1SnByTUM1VytaMmQzVUpuYnZLeFo0bzVya1dnPT0iLCJtYWMiOiJhNTY5NDk2MmM2NTJhZWFjZDNkY2E4ZmE1YjgxOWU3OTM0YTg0Mzk0NThlOTZjMTdlM2Y2MjRhNWZiYmZiNjE0In0%3D; laravel_session=eyJpdiI6IjJXOFhIVlgzeFRFMmxFMHR3dUtyd1E9PSIsInZhbHVlIjoiblloU1wvMThWMHhGaG5MNFJOUm4yVDc3WFVUa3dXbXpOOWI4T2czVlJIRnJlbllwWjhIcEtMYWVGWVBXOFFQc2ZxTnhITGloRm9vXC9SZFhScDNqYmpGQT09IiwibWFjIjoiNzZmOWFmZDQzMjI4NzMzZWM3ODU2NjFmY2JhMzM5NDJlOWM3ODhiMGY5ZTBlNmVjYTc2NzE4YzhiMzViNzczYiJ9',
+  'referer' => 'http://www.localhost.com/08btwo/admin/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => 'www.localhost.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\08btwo\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\08btwo\admin\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-03T09:12:19+08:00 ] 127.0.0.1 127.0.0.1 GET /08btwo/admin/public/
+[ info ] www.localhost.com/08btwo/admin/public/ [运行时间：0.022903s][吞吐率：43.66req/s] [内存消耗：1,384.77kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\08btwo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=4597354496',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => 'www.localhost.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\08btwo\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\08btwo\admin\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-03T09:12:20+08:00 ] 127.0.0.1 127.0.0.1 GET /08btwo/admin/public/
+[ info ] www.localhost.com/08btwo/admin/public/ [运行时间：0.023323s][吞吐率：42.88req/s] [内存消耗：1,384.77kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\08btwo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=4597354496',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => 'www.localhost.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\08btwo\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\08btwo\admin\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-03T09:12:54+08:00 ] 127.0.0.1 127.0.0.1 GET /08btwo/admin/public/
+[ info ] www.localhost.com/08btwo/admin/public/ [运行时间：0.069690s][吞吐率：14.35req/s] [内存消耗：1,507.54kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\08btwo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=4597354496',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => 'www.localhost.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\08btwo\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\08btwo\admin\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-03T09:12:58+08:00 ] 127.0.0.1 127.0.0.1 GET /08btwo/admin/public/
+[ info ] www.localhost.com/08btwo/admin/public/ [运行时间：0.028077s][吞吐率：35.62req/s] [内存消耗：1,384.77kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\08btwo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=4597354496',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => 'www.localhost.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\08btwo\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\08btwo\admin\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-03T09:13:04+08:00 ] 127.0.0.1 127.0.0.1 GET /08btwo/admin/public/
+[ info ] www.localhost.com/08btwo/admin/public/ [运行时间：0.026546s][吞吐率：37.67req/s] [内存消耗：1,384.77kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\08btwo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=4597354496',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => 'www.localhost.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\08btwo\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\08btwo\admin\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-03T09:13:05+08:00 ] 127.0.0.1 127.0.0.1 GET /08btwo/admin/public/
+[ info ] www.localhost.com/08btwo/admin/public/ [运行时间：0.026061s][吞吐率：38.37req/s] [内存消耗：1,384.77kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\08btwo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=4597354496',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => 'www.localhost.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\08btwo\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\08btwo\admin\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
