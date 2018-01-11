@@ -1,0 +1,1602 @@
+---------------------------------------------------------------
+[ 2018-01-11T07:20:59+08:00 ] 127.0.0.1 GET /sugoo/admin/public/
+[ info ] 127.0.0.1/sugoo/admin/public/ [运行时间：0.411594s][吞吐率：2.43req/s] [内存消耗：1,437.61kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'referer' => 'http://127.0.0.1/sugoo/admin/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-11T07:21:01+08:00 ] 127.0.0.1 GET /sugoo/admin/public/index/show/index.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/show/index.html [运行时间：0.169442s][吞吐率：5.90req/s] [内存消耗：2,255.63kb] [文件加载：58]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'show',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Show->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Show.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2]Missing argument 1 for app\index\model\Show::gettotal(), called in D:\phpStudy\WWW\sugoo\admin\application\index\controller\Show.php on line 21 and defined[D:\phpStudy\WWW\sugoo\admin\application\index\model\Show.php:46]
+---------------------------------------------------------------
+[ 2018-01-11T07:21:45+08:00 ] 127.0.0.1 GET /sugoo/admin/public/index/show/index.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/show/index.html [运行时间：0.027052s][吞吐率：36.97req/s] [内存消耗：1,226.35kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'show',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected '}'[D:\phpStudy\WWW\sugoo\admin\application\index\controller\Show.php:114]
+---------------------------------------------------------------
+[ 2018-01-11T07:22:07+08:00 ] 127.0.0.1 GET /sugoo/admin/public/index/show/index.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/show/index.html [运行时间：12.508957s][吞吐率：0.08req/s] [内存消耗：2,252.69kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'show',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Show->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Show.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] ��������е�������ֹ��һ���ѽ��������ӡ�
+[D:\phpStudy\WWW\sugoo\admin\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2018-01-11T07:22:38+08:00 ] 127.0.0.1 GET /sugoo/admin/public/index/show/index.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/show/index.html [运行时间：0.135855s][吞吐率：7.36req/s] [内存消耗：2,325.17kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'show',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Show->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Show.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\show\show.html [ array (
+  0 => 'data',
+  1 => 'num',
+  2 => 'page',
+  3 => 'totalpage',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018519s ] mysql:host=47.95.236.6;port=3306;dbname=shop_mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `su_hdp` [ RunTime:0.011289s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `su_hdp` LIMIT 1 [ RunTime:0.010879s ]
+[ sql ] [ SQL ] SELECT * FROM `su_hdp` LIMIT 0,5 [ RunTime:0.011188s ]
+---------------------------------------------------------------
+[ 2018-01-11T07:22:42+08:00 ] 127.0.0.1 GET /sugoo/admin/public/index/show/index?page=1
+[ info ] 127.0.0.1/sugoo/admin/public/index/show/index?page=1 [运行时间：0.187348s][吞吐率：5.34req/s] [内存消耗：2,332.55kb] [文件加载：58]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'show',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/index/show/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Show->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Show.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\show\show.html [ array (
+  0 => 'data',
+  1 => 'num',
+  2 => 'page',
+  3 => 'totalpage',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022662s ] mysql:host=47.95.236.6;port=3306;dbname=shop_mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `su_hdp` [ RunTime:0.012845s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `su_hdp` LIMIT 1 [ RunTime:0.012874s ]
+[ sql ] [ SQL ] SELECT * FROM `su_hdp` LIMIT 0,5 [ RunTime:0.015667s ]
+---------------------------------------------------------------
+[ 2018-01-11T07:22:44+08:00 ] 127.0.0.1 GET /sugoo/admin/public/index/show/index.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/show/index.html [运行时间：0.099526s][吞吐率：10.05req/s] [内存消耗：2,325.02kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'show',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/index/show/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Show->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Show.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\show\show.html [ array (
+  0 => 'data',
+  1 => 'num',
+  2 => 'page',
+  3 => 'totalpage',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021910s ] mysql:host=47.95.236.6;port=3306;dbname=shop_mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `su_hdp` [ RunTime:0.013165s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `su_hdp` LIMIT 1 [ RunTime:0.016869s ]
+[ sql ] [ SQL ] SELECT * FROM `su_hdp` LIMIT 0,5 [ RunTime:0.011121s ]
+---------------------------------------------------------------
+[ 2018-01-11T07:24:53+08:00 ] 127.0.0.1 GET /sugoo/admin/public/index/show/index.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/show/index.html [运行时间：0.120282s][吞吐率：8.31req/s] [内存消耗：2,325.66kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'show',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/index/show/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Show->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Show.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\show\show.html [ array (
+  0 => 'data',
+  1 => 'num',
+  2 => 'page',
+  3 => 'totalpage',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022696s ] mysql:host=47.95.236.6;port=3306;dbname=shop_mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `su_hdp` [ RunTime:0.016080s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `su_hdp` LIMIT 1 [ RunTime:0.011625s ]
+[ sql ] [ SQL ] SELECT * FROM `su_hdp` LIMIT 0,5 [ RunTime:0.014575s ]
+---------------------------------------------------------------
+[ 2018-01-11T07:24:55+08:00 ] 127.0.0.1 GET /sugoo/admin/public/index/show/add.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/show/add.html [运行时间：0.032157s][吞吐率：31.10req/s] [内存消耗：1,577.33kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'show',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/index/show/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Show->add[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Show.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\show\add_img.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-11T07:25:14+08:00 ] 127.0.0.1 POST /sugoo/admin/public/index/show/upload.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/show/upload.html [运行时间：0.137061s][吞吐率：7.30req/s] [内存消耗：1,496.57kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'show',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'content-length' => '63870',
+  'content-type' => 'multipart/form-data; boundary=---------------------------79141854622288',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/index/show/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'show_name' => '刷卡了开始啦',
+  'show_link' => 'http://www.baidu.com',
+  'token' => '21307217',
+  'submit' => '提交',
+)
+[ info ] [ RUN ] app\index\controller\Show->upload[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Show.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to a member function getRealPath() on array[D:\phpStudy\WWW\sugoo\admin\application\index\controller\Show.php:115]
+---------------------------------------------------------------
+[ 2018-01-11T07:26:02+08:00 ] 127.0.0.1 POST /sugoo/admin/public/index/show/upload.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/show/upload.html [运行时间：0.026430s][吞吐率：37.84req/s] [内存消耗：1,396.48kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'show',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'content-length' => '63870',
+  'content-type' => 'multipart/form-data; boundary=---------------------------79141854622288',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/index/show/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'show_name' => '刷卡了开始啦',
+  'show_link' => 'http://www.baidu.com',
+  'token' => '21307217',
+  'submit' => '提交',
+)
+[ info ] [ RUN ] app\index\controller\Show->upload[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Show.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-11T07:28:36+08:00 ] 127.0.0.1 POST /sugoo/admin/public/index/show/upload.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/show/upload.html [运行时间：0.029837s][吞吐率：33.52req/s] [内存消耗：1,497.24kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'show',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'content-length' => '63870',
+  'content-type' => 'multipart/form-data; boundary=---------------------------79141854622288',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/index/show/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'show_name' => '刷卡了开始啦',
+  'show_link' => 'http://www.baidu.com',
+  'token' => '21307217',
+  'submit' => '提交',
+)
+[ info ] [ RUN ] app\index\controller\Show->upload[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Show.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to a member function getRealPath() on array[D:\phpStudy\WWW\sugoo\admin\application\index\controller\Show.php:115]
+---------------------------------------------------------------
+[ 2018-01-11T07:28:43+08:00 ] 127.0.0.1 POST /sugoo/admin/public/index/show/upload.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/show/upload.html [运行时间：0.026222s][吞吐率：38.14req/s] [内存消耗：1,497.04kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'show',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'content-length' => '63870',
+  'content-type' => 'multipart/form-data; boundary=---------------------------79141854622288',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/index/show/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'show_name' => '刷卡了开始啦',
+  'show_link' => 'http://www.baidu.com',
+  'token' => '21307217',
+  'submit' => '提交',
+)
+[ info ] [ RUN ] app\index\controller\Show->upload[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Show.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to a member function getInfo() on array[D:\phpStudy\WWW\sugoo\admin\application\index\controller\Show.php:118]
+---------------------------------------------------------------
+[ 2018-01-11T07:33:47+08:00 ] 127.0.0.1 POST /sugoo/admin/public/index/show/upload.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/show/upload.html [运行时间：0.029979s][吞吐率：33.36req/s] [内存消耗：1,460.91kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'show',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'content-length' => '63870',
+  'content-type' => 'multipart/form-data; boundary=---------------------------79141854622288',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/index/show/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'show_name' => '刷卡了开始啦',
+  'show_link' => 'http://www.baidu.com',
+  'token' => '21307217',
+  'submit' => '提交',
+)
+[ info ] [ RUN ] app\index\controller\Show->upload[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Show.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-11T08:25:23+08:00 ] 127.0.0.1 GET /sugoo/admin/public/index/show/add.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/show/add.html [运行时间：0.027600s][吞吐率：36.23req/s] [内存消耗：1,457.89kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'show',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/index/show/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Show->add[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Show.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\show\add_img.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-11T08:25:25+08:00 ] 127.0.0.1 POST /sugoo/admin/public/index/show/upload.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/show/upload.html [运行时间：0.207922s][吞吐率：4.81req/s] [内存消耗：1,525.80kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'show',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'content-length' => '63876',
+  'content-type' => 'multipart/form-data; boundary=---------------------------122902546726645',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/index/show/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'show_name' => '刷卡了开始啦',
+  'show_link' => 'http://www.baidu.com',
+  'token' => '21307217',
+  'submit' => '提交',
+)
+[ info ] [ RUN ] app\index\controller\Show->upload[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Show.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: UploadManager[D:\phpStudy\WWW\sugoo\admin\application\index\controller\Show.php:132]
+---------------------------------------------------------------
+[ 2018-01-11T08:26:07+08:00 ] 127.0.0.1 POST /sugoo/admin/public/index/show/upload.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/show/upload.html [运行时间：0.022798s][吞吐率：43.86req/s] [内存消耗：1,493.48kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'show',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'content-length' => '63876',
+  'content-type' => 'multipart/form-data; boundary=---------------------------122902546726645',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/index/show/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'show_name' => '刷卡了开始啦',
+  'show_link' => 'http://www.baidu.com',
+  'token' => '21307217',
+  'submit' => '提交',
+)
+[ info ] [ RUN ] app\index\controller\Show->upload[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Show.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-11T08:26:24+08:00 ] 127.0.0.1 POST /sugoo/admin/public/index/show/upload.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/show/upload.html [运行时间：0.019651s][吞吐率：50.89req/s] [内存消耗：1,493.46kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'show',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'content-length' => '63876',
+  'content-type' => 'multipart/form-data; boundary=---------------------------122902546726645',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/index/show/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'show_name' => '刷卡了开始啦',
+  'show_link' => 'http://www.baidu.com',
+  'token' => '21307217',
+  'submit' => '提交',
+)
+[ info ] [ RUN ] app\index\controller\Show->upload[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Show.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-11T08:40:35+08:00 ] 127.0.0.1 GET /sugoo/admin/public/index/show/add.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/show/add.html [运行时间：0.034300s][吞吐率：29.15req/s] [内存消耗：1,459.14kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'show',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/index/show/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Show->add[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Show.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\show\add_img.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-11T08:40:36+08:00 ] 127.0.0.1 GET /sugoo/admin/public/index/show/add.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/show/add.html [运行时间：0.036884s][吞吐率：27.11req/s] [内存消耗：1,459.14kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'show',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/index/show/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Show->add[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Show.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\show\add_img.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-11T08:40:36+08:00 ] 127.0.0.1 GET /sugoo/admin/public/index/show/add.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/show/add.html [运行时间：0.029468s][吞吐率：33.94req/s] [内存消耗：1,459.14kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'show',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/index/show/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Show->add[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Show.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\show\add_img.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-11T08:41:03+08:00 ] 127.0.0.1 POST /sugoo/admin/public/index/show/upload.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/show/upload.html [运行时间：11.735971s][吞吐率：0.09req/s] [内存消耗：1,601.19kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'show',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'content-length' => '63858',
+  'content-type' => 'multipart/form-data; boundary=---------------------------1213191919539',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/index/show/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'show_name' => '元旦嗨皮',
+  'show_link' => 'http://www.baidu.com',
+  'token' => '21307217',
+  'submit' => '提交',
+)
+[ info ] [ RUN ] app\index\controller\Show->upload[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Show.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Trying to get property of non-object[D:\phpStudy\WWW\sugoo\admin\vendor\qiniu\php-sdk\src\Qiniu\Config.php:42]
+---------------------------------------------------------------
+[ 2018-01-11T08:48:31+08:00 ] 127.0.0.1 POST /sugoo/admin/public/index/show/upload.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/show/upload.html [运行时间：1.809854s][吞吐率：0.55req/s] [内存消耗：1,504.66kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'show',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'content-length' => '63858',
+  'content-type' => 'multipart/form-data; boundary=---------------------------1213191919539',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/index/show/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'show_name' => '元旦嗨皮',
+  'show_link' => 'http://www.baidu.com',
+  'token' => '21307217',
+  'submit' => '提交',
+)
+[ info ] [ RUN ] app\index\controller\Show->upload[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Show.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-11T08:49:09+08:00 ] 127.0.0.1 POST /sugoo/admin/public/index/show/upload.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/show/upload.html [运行时间：0.436805s][吞吐率：2.29req/s] [内存消耗：1,605.77kb] [文件加载：59]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'show',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'content-length' => '63858',
+  'content-type' => 'multipart/form-data; boundary=---------------------------1213191919539',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/index/show/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'show_name' => '元旦嗨皮',
+  'show_link' => 'http://www.baidu.com',
+  'token' => '21307217',
+  'submit' => '提交',
+)
+[ info ] [ RUN ] app\index\controller\Show->upload[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Show.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\index\controller\Show::download()[D:\phpStudy\WWW\sugoo\admin\application\index\controller\Show.php:140]
+---------------------------------------------------------------
+[ 2018-01-11T08:51:54+08:00 ] 127.0.0.1 POST /sugoo/admin/public/index/show/upload.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/show/upload.html [运行时间：11.564750s][吞吐率：0.09req/s] [内存消耗：1,602.71kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'show',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'content-length' => '63858',
+  'content-type' => 'multipart/form-data; boundary=---------------------------1213191919539',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/index/show/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'show_name' => '元旦嗨皮',
+  'show_link' => 'http://www.baidu.com',
+  'token' => '21307217',
+  'submit' => '提交',
+)
+[ info ] [ RUN ] app\index\controller\Show->upload[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Show.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Trying to get property of non-object[D:\phpStudy\WWW\sugoo\admin\vendor\qiniu\php-sdk\src\Qiniu\Config.php:42]
+---------------------------------------------------------------
+[ 2018-01-11T08:52:15+08:00 ] 127.0.0.1 GET /sugoo/admin/public/index/show/add.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/show/add.html [运行时间：0.020815s][吞吐率：48.04req/s] [内存消耗：1,460.39kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'show',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/index/show/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Show->add[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Show.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\show\add_img.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-11T08:52:15+08:00 ] 127.0.0.1 GET /sugoo/admin/public/index/show/add.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/show/add.html [运行时间：0.019660s][吞吐率：50.86req/s] [内存消耗：1,460.39kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'show',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/index/show/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Show->add[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Show.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\show\add_img.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-11T08:52:17+08:00 ] 127.0.0.1 POST /sugoo/admin/public/index/show/upload.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/show/upload.html [运行时间：0.902345s][吞吐率：1.11req/s] [内存消耗：1,574.03kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'show',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'content-length' => '63864',
+  'content-type' => 'multipart/form-data; boundary=---------------------------58931060314134',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/index/show/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'show_name' => '元旦嗨皮',
+  'show_link' => 'http://www.baidu.com',
+  'token' => '21307217',
+  'submit' => '提交',
+)
+[ info ] [ RUN ] app\index\controller\Show->upload[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Show.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-11T08:58:03+08:00 ] 127.0.0.1 GET /sugoo/admin/public/index/show/add.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/show/add.html [运行时间：0.025937s][吞吐率：38.55req/s] [内存消耗：1,462.01kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'show',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/index/show/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Show->add[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Show.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\show\add_img.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-11T08:58:04+08:00 ] 127.0.0.1 GET /sugoo/admin/public/index/show/add.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/show/add.html [运行时间：0.041170s][吞吐率：24.29req/s] [内存消耗：1,461.99kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'show',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/index/show/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Show->add[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Show.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\show\add_img.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-11T08:58:04+08:00 ] 127.0.0.1 GET /sugoo/admin/public/index/show/add.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/show/add.html [运行时间：0.034038s][吞吐率：29.38req/s] [内存消耗：1,461.99kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'show',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/index/show/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Show->add[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Show.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\show\add_img.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-11T08:58:04+08:00 ] 127.0.0.1 GET /sugoo/admin/public/index/show/add.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/show/add.html [运行时间：0.023736s][吞吐率：42.13req/s] [内存消耗：1,461.99kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'show',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/index/show/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Show->add[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Show.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\show\add_img.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-11T08:59:40+08:00 ] 127.0.0.1 POST /sugoo/admin/public/index/show/upload.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/show/upload.html [运行时间：11.587870s][吞吐率：0.09req/s] [内存消耗：1,604.32kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'show',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'content-length' => '36527',
+  'content-type' => 'multipart/form-data; boundary=---------------------------106443255614461',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/index/show/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'show_name' => '开业大吉',
+  'show_link' => 'http://www.baidu.com',
+  'token' => '21307217',
+  'submit' => '提交',
+)
+[ info ] [ RUN ] app\index\controller\Show->upload[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Show.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Trying to get property of non-object[D:\phpStudy\WWW\sugoo\admin\vendor\qiniu\php-sdk\src\Qiniu\Config.php:42]
+---------------------------------------------------------------
+[ 2018-01-11T08:59:46+08:00 ] 127.0.0.1 POST /sugoo/admin/public/index/show/upload.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/show/upload.html [运行时间：0.057888s][吞吐率：17.27req/s] [内存消耗：1,604.34kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'show',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'content-length' => '36527',
+  'content-type' => 'multipart/form-data; boundary=---------------------------106443255614461',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/index/show/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'show_name' => '开业大吉',
+  'show_link' => 'http://www.baidu.com',
+  'token' => '21307217',
+  'submit' => '提交',
+)
+[ info ] [ RUN ] app\index\controller\Show->upload[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Show.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Trying to get property of non-object[D:\phpStudy\WWW\sugoo\admin\vendor\qiniu\php-sdk\src\Qiniu\Config.php:42]
+---------------------------------------------------------------
+[ 2018-01-11T09:00:08+08:00 ] 127.0.0.1 GET /sugoo/admin/public/index/show/add.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/show/add.html [运行时间：0.039063s][吞吐率：25.60req/s] [内存消耗：1,461.99kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'show',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/index/show/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Show->add[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Show.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\show\add_img.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-11T09:00:08+08:00 ] 127.0.0.1 GET /sugoo/admin/public/index/show/add.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/show/add.html [运行时间：0.028031s][吞吐率：35.67req/s] [内存消耗：1,461.99kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'show',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/index/show/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Show->add[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Show.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\show\add_img.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-11T09:00:08+08:00 ] 127.0.0.1 GET /sugoo/admin/public/index/show/add.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/show/add.html [运行时间：0.032534s][吞吐率：30.74req/s] [内存消耗：1,461.99kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'show',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/index/show/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Show->add[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Show.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\show\add_img.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-11T09:00:11+08:00 ] 127.0.0.1 POST /sugoo/admin/public/index/show/upload.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/show/upload.html [运行时间：0.038005s][吞吐率：26.31req/s] [内存消耗：1,604.26kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'show',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'content-length' => '36527',
+  'content-type' => 'multipart/form-data; boundary=---------------------------239831545012419',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/index/show/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'show_name' => '开业大吉',
+  'show_link' => 'http://www.baidu.com',
+  'token' => '21307217',
+  'submit' => '提交',
+)
+[ info ] [ RUN ] app\index\controller\Show->upload[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Show.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Trying to get property of non-object[D:\phpStudy\WWW\sugoo\admin\vendor\qiniu\php-sdk\src\Qiniu\Config.php:42]
+---------------------------------------------------------------
+[ 2018-01-11T09:00:13+08:00 ] 127.0.0.1 GET /sugoo/admin/public/index/show/add.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/show/add.html [运行时间：0.031710s][吞吐率：31.54req/s] [内存消耗：1,461.99kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'show',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/index/show/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Show->add[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Show.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\show\add_img.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-11T09:00:28+08:00 ] 127.0.0.1 POST /sugoo/admin/public/index/show/upload.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/show/upload.html [运行时间：12.408729s][吞吐率：0.08req/s] [内存消耗：1,592.03kb] [文件加载：58]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'show',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'content-length' => '36521',
+  'content-type' => 'multipart/form-data; boundary=---------------------------29370881530961',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/index/show/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'show_name' => '开业大吉',
+  'show_link' => 'http://www.baidu.com',
+  'token' => '21307217',
+  'submit' => '提交',
+)
+[ info ] [ RUN ] app\index\controller\Show->upload[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Show.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]variable type error： array[D:\phpStudy\WWW\sugoo\admin\thinkphp\library\think\Response.php:318]
+---------------------------------------------------------------
+[ 2018-01-11T09:01:22+08:00 ] 127.0.0.1 GET /sugoo/admin/public/index/show/add.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/show/add.html [运行时间：0.032493s][吞吐率：30.78req/s] [内存消耗：1,461.99kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'show',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/index/show/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Show->add[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Show.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\show\add_img.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-11T09:01:31+08:00 ] 127.0.0.1 GET /sugoo/admin/public/index/show/add.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/show/add.html [运行时间：0.031473s][吞吐率：31.77req/s] [内存消耗：1,461.99kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'show',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/index/show/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Show->add[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Show.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\show\add_img.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-11T09:01:46+08:00 ] 127.0.0.1 POST /sugoo/admin/public/index/show/upload.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/show/upload.html [运行时间：1.468263s][吞吐率：0.68req/s] [内存消耗：2,461.21kb] [文件加载：66]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'show',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'content-length' => '36521',
+  'content-type' => 'multipart/form-data; boundary=---------------------------10874125215874',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/index/show/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'show_name' => '开业大吉',
+  'show_link' => 'http://www.baidu.com',
+  'token' => '21307217',
+  'submit' => '提交',
+)
+[ info ] [ RUN ] app\index\controller\Show->upload[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Show.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015230s ] mysql:host=47.95.236.6;port=3306;dbname=shop_mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `su_hdp` [ RunTime:0.009751s ]
+[ sql ] [ SQL ] INSERT INTO `su_hdp` (`show_name` , `show_link` , `img` , `addtime`) VALUES ('开业大吉' , 'http://www.baidu.com' , 'http://p2d7ud14u.bkt.clouddn.com/01df920180111090144963.jpg?e=1515636106&token=H6fVjV3_PvmfFAokqKnRFWweG2GO2wYMJssEkotn:X8s-smgZl8Ox1oVfbFjjvBmHVms=' , '2018-01-11 09:01:46') [ RunTime:0.008463s ]
+---------------------------------------------------------------
+[ 2018-01-11T09:01:46+08:00 ] 127.0.0.1 GET /sugoo/admin/public/index/show/index.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/show/index.html [运行时间：0.161144s][吞吐率：6.21req/s] [内存消耗：2,330.46kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'show',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/index/show/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Show->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Show.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\show\show.html [ array (
+  0 => 'data',
+  1 => 'num',
+  2 => 'page',
+  3 => 'totalpage',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.045963s ] mysql:host=47.95.236.6;port=3306;dbname=shop_mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `su_hdp` [ RunTime:0.026981s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `su_hdp` LIMIT 1 [ RunTime:0.017386s ]
+[ sql ] [ SQL ] SELECT * FROM `su_hdp` LIMIT 0,5 [ RunTime:0.016276s ]
+---------------------------------------------------------------
+[ 2018-01-11T09:02:48+08:00 ] 127.0.0.1 GET /sugoo/admin/public/index/show/index.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/show/index.html [运行时间：0.143077s][吞吐率：6.99req/s] [内存消耗：2,459.16kb] [文件加载：59]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'show',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/index/show/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Show->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Show.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\show\show.html [ array (
+  0 => 'data',
+  1 => 'num',
+  2 => 'page',
+  3 => 'totalpage',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.054541s ] mysql:host=47.95.236.6;port=3306;dbname=shop_mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `su_hdp` [ RunTime:0.010581s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `su_hdp` LIMIT 1 [ RunTime:0.010157s ]
+[ sql ] [ SQL ] SELECT * FROM `su_hdp` LIMIT 0,5 [ RunTime:0.013263s ]
+---------------------------------------------------------------
+[ 2018-01-11T09:03:41+08:00 ] 127.0.0.1 GET /sugoo/admin/public/index/show/index.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/show/index.html [运行时间：0.469241s][吞吐率：2.13req/s] [内存消耗：2,459.16kb] [文件加载：59]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'show',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/index/show/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Show->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Show.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\show\show.html [ array (
+  0 => 'data',
+  1 => 'num',
+  2 => 'page',
+  3 => 'totalpage',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.127061s ] mysql:host=47.95.236.6;port=3306;dbname=shop_mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `su_hdp` [ RunTime:0.032708s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `su_hdp` LIMIT 1 [ RunTime:0.245261s ]
+[ sql ] [ SQL ] SELECT * FROM `su_hdp` LIMIT 0,5 [ RunTime:0.018589s ]
+---------------------------------------------------------------
+[ 2018-01-11T09:03:46+08:00 ] 127.0.0.1 GET /sugoo/admin/public/index/show/index.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/show/index.html [运行时间：0.370320s][吞吐率：2.70req/s] [内存消耗：2,330.68kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'show',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/index/show/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Show->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Show.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\show\show.html [ array (
+  0 => 'data',
+  1 => 'num',
+  2 => 'page',
+  3 => 'totalpage',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.258922s ] mysql:host=47.95.236.6;port=3306;dbname=shop_mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `su_hdp` [ RunTime:0.029942s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `su_hdp` LIMIT 1 [ RunTime:0.023890s ]
+[ sql ] [ SQL ] SELECT * FROM `su_hdp` LIMIT 0,5 [ RunTime:0.022075s ]

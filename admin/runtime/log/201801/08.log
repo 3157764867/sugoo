@@ -1,0 +1,846 @@
+---------------------------------------------------------------
+[ 2018-01-08T08:40:52+08:00 ] 127.0.0.1 GET /sugoo/admin/public/
+[ info ] 127.0.0.1/sugoo/admin/public/ [运行时间：0.040272s][吞吐率：24.83req/s] [内存消耗：1,404.89kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'referer' => 'http://127.0.0.1/sugoo/admin/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-08T08:40:54+08:00 ] 127.0.0.1 GET /sugoo/admin/public/index/show/index.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/show/index.html [运行时间：0.351896s][吞吐率：2.84req/s] [内存消耗：2,218.74kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'show',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Show->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Show.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'lxf'@'114.249.225.75' (using password: YES)[D:\phpStudy\WWW\sugoo\admin\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2018-01-08T08:41:10+08:00 ] 127.0.0.1 GET /sugoo/admin/public/index/trading/index.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/trading/index.html [运行时间：0.118313s][吞吐率：8.45req/s] [内存消耗：2,207.80kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'trading',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Trading->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Trading.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'lxf'@'221.221.147.106' (using password: YES)[D:\phpStudy\WWW\sugoo\admin\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2018-01-08T08:41:14+08:00 ] 127.0.0.1 GET /sugoo/admin/public/index/pay/index.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/pay/index.html [运行时间：0.110506s][吞吐率：9.05req/s] [内存消耗：2,211.94kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pay',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Pay->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'lxf'@'222.128.183.232' (using password: YES)[D:\phpStudy\WWW\sugoo\admin\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2018-01-08T08:43:36+08:00 ] 127.0.0.1 GET /sugoo/admin/public/index/pay/index.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/pay/index.html [运行时间：0.113477s][吞吐率：8.81req/s] [内存消耗：2,280.66kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pay',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Pay->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\pay\pay.html [ array (
+  0 => 'data',
+  1 => 'num',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.034597s ] mysql:host=47.95.236.6;port=3306;dbname=shop_mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `su_pay` [ RunTime:0.018646s ]
+[ sql ] [ SQL ] SELECT * FROM `su_pay` [ RunTime:0.010210s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `su_pay` LIMIT 1 [ RunTime:0.008459s ]
+---------------------------------------------------------------
+[ 2018-01-08T08:43:39+08:00 ] 127.0.0.1 GET /sugoo/admin/public/index/order/index.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/order/index.html [运行时间：0.042409s][吞吐率：23.58req/s] [内存消耗：1,408.62kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/index/pay/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Order->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Order.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\order\order.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-08T08:43:41+08:00 ] 127.0.0.1 GET /sugoo/admin/public/index/trading/index.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/trading/index.html [运行时间：0.124107s][吞吐率：8.06req/s] [内存消耗：2,277.79kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'trading',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/index/order/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Trading->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Trading.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\trading\trading.html [ array (
+  0 => 'data',
+  1 => 'page',
+  2 => 'totalpage',
+  3 => 'total',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.044570s ] mysql:host=47.95.236.6;port=3306;dbname=shop_mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `su_pay_record` [ RunTime:0.014148s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `su_pay_record` LIMIT 1 [ RunTime:0.011501s ]
+[ sql ] [ SQL ] SELECT * FROM `su_pay_record` LIMIT 0,5 [ RunTime:0.014261s ]
+---------------------------------------------------------------
+[ 2018-01-08T08:43:44+08:00 ] 127.0.0.1 GET /sugoo/admin/public/index/pay/index.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/pay/index.html [运行时间：0.470464s][吞吐率：2.13req/s] [内存消耗：2,280.36kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pay',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/index/trading/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Pay->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\pay\pay.html [ array (
+  0 => 'data',
+  1 => 'num',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.396918s ] mysql:host=47.95.236.6;port=3306;dbname=shop_mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `su_pay` [ RunTime:0.011679s ]
+[ sql ] [ SQL ] SELECT * FROM `su_pay` [ RunTime:0.011108s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `su_pay` LIMIT 1 [ RunTime:0.010408s ]
+---------------------------------------------------------------
+[ 2018-01-08T08:43:47+08:00 ] 127.0.0.1 POST /sugoo/admin/public/index/pay/up
+[ info ] 127.0.0.1/sugoo/admin/public/index/pay/up [运行时间：0.111565s][吞吐率：8.96req/s] [内存消耗：2,303.54kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pay',
+    2 => 'up',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'content-length' => '13',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/index/pay/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'status' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Pay->up[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.030440s ] mysql:host=47.95.236.6;port=3306;dbname=shop_mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `su_pay` [ RunTime:0.013850s ]
+[ sql ] [ SQL ] UPDATE `su_pay`  SET `status`=0  WHERE  `id` = 2 [ RunTime:0.026238s ]
+---------------------------------------------------------------
+[ 2018-01-08T08:43:48+08:00 ] 127.0.0.1 GET /sugoo/admin/public/index/pay/index.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/pay/index.html [运行时间：0.108406s][吞吐率：9.22req/s] [内存消耗：2,280.67kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pay',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/index/trading/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Pay->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\pay\pay.html [ array (
+  0 => 'data',
+  1 => 'num',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.026309s ] mysql:host=47.95.236.6;port=3306;dbname=shop_mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `su_pay` [ RunTime:0.015466s ]
+[ sql ] [ SQL ] SELECT * FROM `su_pay` [ RunTime:0.016156s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `su_pay` LIMIT 1 [ RunTime:0.013270s ]
+---------------------------------------------------------------
+[ 2018-01-08T08:43:50+08:00 ] 127.0.0.1 POST /sugoo/admin/public/index/pay/up
+[ info ] 127.0.0.1/sugoo/admin/public/index/pay/up [运行时间：0.272675s][吞吐率：3.67req/s] [内存消耗：2,303.54kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pay',
+    2 => 'up',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'content-length' => '13',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/index/pay/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'status' => '0',
+)
+[ info ] [ RUN ] app\index\controller\Pay->up[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.204685s ] mysql:host=47.95.236.6;port=3306;dbname=shop_mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `su_pay` [ RunTime:0.010417s ]
+[ sql ] [ SQL ] UPDATE `su_pay`  SET `status`=1  WHERE  `id` = 2 [ RunTime:0.018789s ]
+---------------------------------------------------------------
+[ 2018-01-08T08:43:51+08:00 ] 127.0.0.1 GET /sugoo/admin/public/index/pay/index.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/pay/index.html [运行时间：0.136909s][吞吐率：7.30req/s] [内存消耗：2,280.68kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pay',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/index/trading/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Pay->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\pay\pay.html [ array (
+  0 => 'data',
+  1 => 'num',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.045159s ] mysql:host=47.95.236.6;port=3306;dbname=shop_mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `su_pay` [ RunTime:0.018377s ]
+[ sql ] [ SQL ] SELECT * FROM `su_pay` [ RunTime:0.016785s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `su_pay` LIMIT 1 [ RunTime:0.018064s ]
+---------------------------------------------------------------
+[ 2018-01-08T08:43:52+08:00 ] 127.0.0.1 POST /sugoo/admin/public/index/pay/up
+[ info ] 127.0.0.1/sugoo/admin/public/index/pay/up [运行时间：0.093494s][吞吐率：10.70req/s] [内存消耗：2,303.54kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pay',
+    2 => 'up',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'content-length' => '13',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/index/pay/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'status' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Pay->up[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025381s ] mysql:host=47.95.236.6;port=3306;dbname=shop_mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `su_pay` [ RunTime:0.013784s ]
+[ sql ] [ SQL ] UPDATE `su_pay`  SET `status`=0  WHERE  `id` = 2 [ RunTime:0.017093s ]
+---------------------------------------------------------------
+[ 2018-01-08T08:43:53+08:00 ] 127.0.0.1 GET /sugoo/admin/public/index/pay/index.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/pay/index.html [运行时间：0.129394s][吞吐率：7.73req/s] [内存消耗：2,280.67kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pay',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/index/trading/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Pay->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\pay\pay.html [ array (
+  0 => 'data',
+  1 => 'num',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.038797s ] mysql:host=47.95.236.6;port=3306;dbname=shop_mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `su_pay` [ RunTime:0.014998s ]
+[ sql ] [ SQL ] SELECT * FROM `su_pay` [ RunTime:0.014769s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `su_pay` LIMIT 1 [ RunTime:0.023808s ]
+---------------------------------------------------------------
+[ 2018-01-08T20:28:18+08:00 ] 127.0.0.1 GET /
+[ info ] www.yhadmin.com/ [运行时间：4.361630s][吞吐率：0.23req/s] [内存消耗：1,404.08kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => 'www.yhadmin.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-08T20:35:30+08:00 ] 127.0.0.1 GET /
+[ info ] www.yhadmin.com/ [运行时间：0.028543s][吞吐率：35.03req/s] [内存消耗：1,404.08kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => 'www.yhadmin.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-08T20:35:30+08:00 ] 127.0.0.1 GET /sugoo/admin/public/static/css/public.css
+[ info ] www.yhadmin.com/sugoo/admin/public/static/css/public.css [运行时间：0.105140s][吞吐率：9.51req/s] [内存消耗：1,160.92kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sugoo',
+    1 => 'admin',
+    2 => 'public',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'referer' => 'http://www.yhadmin.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => 'www.yhadmin.com',
+)
+[ info ] [ PARAM ] array (
+  'static' => 'css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-08T20:35:31+08:00 ] 127.0.0.1 GET /sugoo/admin/public/static/js/global.js
+[ info ] www.yhadmin.com/sugoo/admin/public/static/js/global.js [运行时间：0.045431s][吞吐率：22.01req/s] [内存消耗：1,160.80kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sugoo',
+    1 => 'admin',
+    2 => 'public',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'referer' => 'http://www.yhadmin.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => 'www.yhadmin.com',
+)
+[ info ] [ PARAM ] array (
+  'static' => 'js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-08T20:35:31+08:00 ] 127.0.0.1 GET /sugoo/admin/public/static/js/jquery.min.js
+[ info ] www.yhadmin.com/sugoo/admin/public/static/js/jquery.min.js [运行时间：0.025686s][吞吐率：38.93req/s] [内存消耗：1,160.70kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sugoo',
+    1 => 'admin',
+    2 => 'public',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'referer' => 'http://www.yhadmin.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => 'www.yhadmin.com',
+)
+[ info ] [ PARAM ] array (
+  'static' => 'js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-08T20:35:31+08:00 ] 127.0.0.1 GET /sugoo/admin/public/static/images/dclogo.gif
+[ info ] www.yhadmin.com/sugoo/admin/public/static/images/dclogo.gif [运行时间：0.017640s][吞吐率：56.69req/s] [内存消耗：1,160.77kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sugoo',
+    1 => 'admin',
+    2 => 'public',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'referer' => 'http://www.yhadmin.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => 'www.yhadmin.com',
+)
+[ info ] [ PARAM ] array (
+  'static' => 'images',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-08T20:35:31+08:00 ] 127.0.0.1 GET /sugoo/admin/public/static/js/global.js
+[ info ] www.yhadmin.com/sugoo/admin/public/static/js/global.js [运行时间：0.024481s][吞吐率：40.85req/s] [内存消耗：1,160.80kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sugoo',
+    1 => 'admin',
+    2 => 'public',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'referer' => 'http://www.yhadmin.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => 'www.yhadmin.com',
+)
+[ info ] [ PARAM ] array (
+  'static' => 'js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-08T20:35:31+08:00 ] 127.0.0.1 GET /sugoo/admin/public/static/images/dclogo.gif
+[ info ] www.yhadmin.com/sugoo/admin/public/static/images/dclogo.gif [运行时间：0.024035s][吞吐率：41.61req/s] [内存消耗：1,160.77kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sugoo',
+    1 => 'admin',
+    2 => 'public',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'referer' => 'http://www.yhadmin.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => 'www.yhadmin.com',
+)
+[ info ] [ PARAM ] array (
+  'static' => 'images',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-08T20:35:42+08:00 ] 127.0.0.1 GET /sugoo/admin/public/
+[ info ] 127.0.0.1/sugoo/admin/public/ [运行时间：0.024723s][吞吐率：40.45req/s] [内存消耗：1,404.90kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'referer' => 'http://127.0.0.1/sugoo/admin/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-08T20:35:44+08:00 ] 127.0.0.1 GET /sugoo/admin/public/index/show/index.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/show/index.html [运行时间：0.351584s][吞吐率：2.84req/s] [内存消耗：2,290.73kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'show',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Show->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Show.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\show\show.html [ array (
+  0 => 'data',
+  1 => 'num',
+  2 => 'page',
+  3 => 'totalpage',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.063329s ] mysql:host=47.95.236.6;port=3306;dbname=shop_mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `su_hdp` [ RunTime:0.037690s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `su_hdp` LIMIT 1 [ RunTime:0.034036s ]
+[ sql ] [ SQL ] SELECT * FROM `su_hdp` LIMIT 0,5 [ RunTime:0.033632s ]
+---------------------------------------------------------------
+[ 2018-01-08T20:35:47+08:00 ] 127.0.0.1 GET /sugoo/admin/public/index/pay/index.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/pay/index.html [运行时间：0.355111s][吞吐率：2.82req/s] [内存消耗：2,280.34kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pay',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/index/show/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Pay->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\pay\pay.html [ array (
+  0 => 'data',
+  1 => 'num',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.214725s ] mysql:host=47.95.236.6;port=3306;dbname=shop_mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `su_pay` [ RunTime:0.011304s ]
+[ sql ] [ SQL ] SELECT * FROM `su_pay` [ RunTime:0.013152s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `su_pay` LIMIT 1 [ RunTime:0.010286s ]
+---------------------------------------------------------------
+[ 2018-01-08T20:35:49+08:00 ] 127.0.0.1 GET /sugoo/admin/public/index/trading/index.html
+[ info ] 127.0.0.1/sugoo/admin/public/index/trading/index.html [运行时间：0.298418s][吞吐率：3.35req/s] [内存消耗：2,278.66kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'trading',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1509434478,1509518292',
+  'referer' => 'http://127.0.0.1/sugoo/admin/public/index/pay/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Trading->index[ D:\phpStudy\WWW\sugoo\admin\application\index\controller\Trading.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\sugoo\admin\public/../application/index\view\trading\trading.html [ array (
+  0 => 'data',
+  1 => 'page',
+  2 => 'totalpage',
+  3 => 'total',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.031953s ] mysql:host=47.95.236.6;port=3306;dbname=shop_mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `su_pay_record` [ RunTime:0.016224s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `su_pay_record` LIMIT 1 [ RunTime:0.013905s ]
+[ sql ] [ SQL ] SELECT * FROM `su_pay_record` LIMIT 0,5 [ RunTime:0.014564s ]
