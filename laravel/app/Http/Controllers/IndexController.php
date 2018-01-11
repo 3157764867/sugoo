@@ -3,11 +3,16 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Http\controllers\BaseController;
 
-class IndexController extends Controller
+class IndexController extends BaseController
 {
     public function index()
     {
-    	return view('index.index');
+    	$data = BaseController::index();
+    	$arr = BaseController::cate();
+    	$index = new \App\model\Index;
+    	$res = $index->getgoods();
+    	return view('index.index',['data' => $data,'arr' => $arr,'res' => $res]);
     }
 }

@@ -83,93 +83,53 @@
  <div id="dcMain">
    <!-- 当前位置 -->
 <div id="urHere">DouPHP 管理中心<b>></b><strong>添加商品</strong> </div>   <div class="mainBox" style="height:auto!important;height:550px;min-height:550px;">
-            <h3><a href="product.html" class="actionBtn">商品列表</a>添加商品</h3>
-    <form action="product.php?rec=insert" method="post" enctype="multipart/form-data">
+            <h3><a href="{:url('goods/index')}" class="actionBtn">商品列表</a>添加商品</h3>
+    <form action="{:url('goods/goodsAdd')}" method="post" enctype="multipart/form-data">
      <table width="100%" border="0" cellpadding="8" cellspacing="0" class="tableBasic">
       <tr>
        <td width="90" align="right">商品名称</td>
        <td>
-        <input type="text" name="name" value="" size="80" class="inpMain" />
+        <input type="text" name="goods_name" value="" size="80" class="inpMain" />
+       </td>
+      </tr>
+      <tr>
+       <td width="90" align="right">商品价格</td>
+       <td>
+        <input type="text" name="g_price" value="" size="80" class="inpMain" />
        </td>
       </tr>
       <tr>
        <td align="right">商品分类</td>
        <td>
-        <select name="cat_id">
-         <option value="0">未分类</option>
-                           <option value="1"> 电子数码</option>
-                                    <option value="4">- 智能手机</option>
-                                    <option value="5">- 平板电脑</option>
-                                    <option value="2"> 家居百货</option>
-                                    <option value="3"> 母婴用品</option>
-                          </select>
+        <select name="c_id" id="c_id">
+         <option value="0">选择分类</option>
+         {foreach $cate as $k => $v}
+              <option value="{$v.c_id}">{$v.c_name}</option>
+         {/foreach}
+        </select>
+       </td>
+      </tr>
+       <tr>
+       <td align="right">商品品牌</td>
+       <td>
+        <select name="b_id">
+         <option value="0">选择品牌</option>
+         {foreach $brand as $k => $v}
+              <option value="{$v.b_id}">{$v.b_name}</option>          
+          {/foreach}
+        </select>
        </td>
       </tr>
       <tr>
-       <td align="right">商品价格</td>
-       <td>
-        <input type="text" name="price" value="0" size="40" class="inpMain" />
-       </td>
-      </tr>
-            <tr>
-       <td align="right" valign="top">商品描述</td>
-       <td>
-        <!-- KindEditor -->
-			<link rel="stylesheet" href="js/kindeditor/themes/default/default.css" />
-			<link rel="stylesheet" href="js/kindeditor/plugins/code/prettify.css" />
-			<script charset="utf-8" src="js/kindeditor/kindeditor.js"></script>
-			<script charset="utf-8" src="js/kindeditor/lang/zh_CN.js"></script>
-			<script charset="utf-8" src="js/kindeditor/plugins/code/prettify.js"></script>
-        <script>
-					KindEditor.ready(function(K) {
-						var editor1 = K.create('textarea[name="content"]', {
-							cssPath : '../plugins/code/prettify.css',
-							uploadJson : '../php/upload_json.php',
-							fileManagerJson : '../php/file_manager_json.php',
-							allowFileManager : true,
-							afterCreate : function() {
-								var self = this;
-								K.ctrl(document, 13, function() {
-									self.sync();
-									K('form[name=example]')[0].submit();
-								});
-								K.ctrl(self.edit.doc, 13, function() {
-									self.sync();
-									K('form[name=example]')[0].submit();
-								});
-							}
-						});
-						prettyPrint();
-					});
-			</script>
-        <!-- /KindEditor -->
-        <textarea id="content" name="content" style="width:780px;height:400px;" class="textArea"></textarea>
-       </td>
-      </tr>
-      <tr>
-       <td align="right">缩略图</td>
-       <td>
-        <input type="file" name="image" size="38" class="inpFlie" />
-        <img src="images/icon_no.png"></td>
-      </tr>
-      <tr>
-       <td align="right">关键字</td>
-       <td>
-        <input type="text" name="keywords" value="" size="50" class="inpMain" />
-       </td>
-      </tr>
-      <tr>
-       <td align="right">简单描述</td>
-       <td>
-        <input type="text" name="description" value="" size="50" class="inpMain" />
+       <td align="right">商品属性</td>
+       <td id="attr">
+          
        </td>
       </tr>
       <tr>
        <td></td>
        <td>
-        <input type="hidden" name="token" value="21307217" />
-        <input type="hidden" name="id" value="">
-        <input name="submit" class="btn" type="submit" value="提交" />
+        <input type="submit" class="btn" type="submit" value="提交" />
        </td>
       </tr>
      </table>
@@ -188,3 +148,39 @@
 <div class="clear"></div> </div>
 </body>
 </html>
+<script src="__JS__jquery.js"></script>
+<script type="text/javascript">
+  $(document).on('change','#c_id',function(){
+    var c_id=$('#c_id').val();
+    $.ajax({
+      url:'getAttr',
+      data:{c_id:c_id},
+      type:'get',
+      dataType:'json',
+      success:function(msg)
+      {
+        console.log(msg)
+        // var arr = eval("("+msg+")");
+        // console.log(arr)
+        
+        var html = '';
+        var res = '';
+        var n=0;
+        console.log(msg)
+        for(i in msg)
+        {
+           html+="<span>"+msg[i].attr_name+"："+"</span>"
+           var data = msg[i].attra_val;
+            for(k in data)
+            {
+               html+="<input type=\"checkbox\" name=\"attrvalue["+n+"][]\" value="+data[k].attra_val+">"
+               html+=""+data[k].attra_val+""
+            }
+            html+="<br/>"
+            n++;
+            $('#attr').html(html);
+        }
+      }
+    })
+  })
+</script>

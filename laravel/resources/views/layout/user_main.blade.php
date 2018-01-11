@@ -23,7 +23,7 @@
     @include('layout.nav')
 <div class="m_top_bg">
     <div class="top">
-        <div class="m_logo"><a href="index"><img src="images/logo1.png" /></a></div>
+        <div class="m_logo"><a href="/index"><img src="images/logo1.png" /></a></div>
         <div class="m_search">
             <form>
                 <input type="text" value="" class="m_ipt" />

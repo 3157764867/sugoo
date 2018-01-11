@@ -11,10 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('index.index');
-});
-
+// Route::get('/', function () {
+//     return view('index.index');
+// });
+Route::get('/','IndexController@index');
 //商城首页
 Route::get('/index','IndexController@index');
 
@@ -60,13 +60,26 @@ Route::get('/cash','UserController@cash');
 
 
 //商品详情
-Route::get('/goods','GoodsController@product');
-
+Route::get('/goods/{id}','GoodsController@product');
+//商品sku展示
+Route::any('/attrvalue','GoodsController@getAttrval');
 
 //商城特卖
 Route::get('/sell','GoodsController@sell');
 //特卖商品详情
 Route::get('/sellde','GoodsController@sellde');
+
+//商品分类
+Route::get('/cate','CateController@index');
+//商品分类展示
+Route::get('/catelist/{id}','CateController@cateList');
+//全部分类产品展示
+Route::get('/getcateall/{id}','CateController@getCateAll');
+
+//商品品牌
+Route::get('/brand','BrandController@index');
+//商品品牌展示
+Route::get('/brandlist/{id}','BrandController@brandList');
 
 //购物车
 Route::get('/car','CarController@index');
@@ -74,14 +87,3 @@ Route::get('/car','CarController@index');
 Route::get('/car_two','CarController@car2');
 //结算页面
 Route::get('/car_three','CarController@car3');
-
-// 用户注册赠送红包
-Route::any('/cupon','userCupon@give');
-// 获取用户对应的红包数据
-Route::any('/cuget','userCupon@getinfo');
-// 获取当前用户下的红包总个数与总金额
-Route::any('/cunum','userCupon@getnum');
-// 用户使用户红包
-Route::any('/cuuse','userCupon@usecupon');
-// 根据订单金额返回红包id和红包名称
-Route::any('/cuname','userCupon@cuname');

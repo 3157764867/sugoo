@@ -142,9 +142,10 @@ return [
 
     // 视图输出字符串内容替换
     'view_replace_str'       => [
-   '__CSS__' => '/admin/public/static/css/',
-   '__IMG__' => '/admin/public/static/images/',
-   '__JS__'  => '/admin/public/static/js/',
+   '__CSS__' => '/sugoo/admin/public/static/css/',
+   '__IMG__' => '/sugoo/admin/public/static/images/',
+   '__JS__'  => '/sugoo/admin/public/static/js/',
+   '__PUBLIC__'  => '/sugoo/admin/public',
     ],
     // 默认跳转页面对应的模板文件
     'dispatch_success_tmpl'  => THINK_PATH . 'tpl' . DS . 'dispatch_jump.tpl',
