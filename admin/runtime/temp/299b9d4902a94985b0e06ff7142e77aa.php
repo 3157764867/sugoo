@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:77:"F:\phpstudy\WWW\sugoo\admin\public/../application/index\view\cupon\cupon.html";i:1515627214;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:77:"F:\phpstudy\WWW\sugoo\admin\public/../application/index\view\cupon\cupon.html";i:1515630060;}*/ ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>

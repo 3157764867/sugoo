@@ -263,3 +263,100 @@
 [ sql ] [ SQL ] SHOW COLUMNS FROM `su_cupon_batch` [ RunTime:0.049717s ]
 [ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `su_cupon_batch` LIMIT 1 [ RunTime:0.001087s ]
 [ sql ] [ SQL ] SELECT * FROM `su_cupon_batch` ORDER BY cu_id asc LIMIT 0,3 [ RunTime:0.001127s ]
+---------------------------------------------------------------
+[ 2018-01-11T08:22:31+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/public/
+[ info ] www.sugo.com/admin/public/ [运行时间：0.210843s][吞吐率：4.74req/s] [内存消耗：1,509.41kb] [文件加载：48]
+[ info ] [ LANG ] F:\phpstudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'XSRF-TOKEN=eyJpdiI6Im54YzN3QjZEWlorVWhQS3FCM2VrakE9PSIsInZhbHVlIjoiMlNNS3pxWERublRVNVhSVnJPVUtKWWpZbFZxcnM3VysrS05zc1c5Q2FqUGdPZWZwdWxOM2RUXC9LdFZ2b0lkZzA1QXdaSlZKUFhPS1h1ZmNqNFdESnZnPT0iLCJtYWMiOiI3YzU2ZDVjMGU5MzgzOWJhNDJhZTRmNWE5NTdhY2UwMWFlNTQzMTJmMGU0NTI3MTQ5ZmMwZjRiMjA1YWRlNzdjIn0%3D; laravel_session=eyJpdiI6IkhUVDZ1V0N4NlwvSEh0SjBhS2lyUG1RPT0iLCJ2YWx1ZSI6IlNIQmM1cVZSdkZcL2ZOYmU0TDFrODV2ZlIrV3FaWjV5XC9LVmRVVEpEVUJQbzlNWWxsXC9tMndXRFM5am0yWFpkMXc2eklIRTdDcU1adDRUMUVLY3lEWHB3PT0iLCJtYWMiOiJhZDhhMTgwOTNjNjJmYWNjYTljMTdkZTcyMDQxOTliMjRlMDFlZDYyODRiMzRkMzZiN2RmZWRjY2QwMzU3ODVkIn0%3D',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.sugo.com/admin/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sugo.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\phpstudy\WWW\sugoo\admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\sugoo\admin\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-11T08:22:34+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/public/index/marketing/index.html
+[ info ] www.sugo.com/admin/public/index/marketing/index.html [运行时间：0.172990s][吞吐率：5.78req/s] [内存消耗：1,513.94kb] [文件加载：48]
+[ info ] [ LANG ] F:\phpstudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'marketing',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'XSRF-TOKEN=eyJpdiI6Im54YzN3QjZEWlorVWhQS3FCM2VrakE9PSIsInZhbHVlIjoiMlNNS3pxWERublRVNVhSVnJPVUtKWWpZbFZxcnM3VysrS05zc1c5Q2FqUGdPZWZwdWxOM2RUXC9LdFZ2b0lkZzA1QXdaSlZKUFhPS1h1ZmNqNFdESnZnPT0iLCJtYWMiOiI3YzU2ZDVjMGU5MzgzOWJhNDJhZTRmNWE5NTdhY2UwMWFlNTQzMTJmMGU0NTI3MTQ5ZmMwZjRiMjA1YWRlNzdjIn0%3D; laravel_session=eyJpdiI6IkhUVDZ1V0N4NlwvSEh0SjBhS2lyUG1RPT0iLCJ2YWx1ZSI6IlNIQmM1cVZSdkZcL2ZOYmU0TDFrODV2ZlIrV3FaWjV5XC9LVmRVVEpEVUJQbzlNWWxsXC9tMndXRFM5am0yWFpkMXc2eklIRTdDcU1adDRUMUVLY3lEWHB3PT0iLCJtYWMiOiJhZDhhMTgwOTNjNjJmYWNjYTljMTdkZTcyMDQxOTliMjRlMDFlZDYyODRiMzRkMzZiN2RmZWRjY2QwMzU3ODVkIn0%3D',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.sugo.com/admin/public/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sugo.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Marketing->index[ F:\phpstudy\WWW\sugoo\admin\application\index\controller\Marketing.php ]
+[ info ] [ VIEW ] F:\phpstudy\WWW\sugoo\admin\public/../application/index\view\marketing\marketing.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-11T08:22:38+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/public/index/cupon/index.html
+[ info ] www.sugo.com/admin/public/index/cupon/index.html [运行时间：0.316754s][吞吐率：3.16req/s] [内存消耗：2,405.46kb] [文件加载：57]
+[ info ] [ LANG ] F:\phpstudy\WWW\sugoo\admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cupon',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'XSRF-TOKEN=eyJpdiI6Im54YzN3QjZEWlorVWhQS3FCM2VrakE9PSIsInZhbHVlIjoiMlNNS3pxWERublRVNVhSVnJPVUtKWWpZbFZxcnM3VysrS05zc1c5Q2FqUGdPZWZwdWxOM2RUXC9LdFZ2b0lkZzA1QXdaSlZKUFhPS1h1ZmNqNFdESnZnPT0iLCJtYWMiOiI3YzU2ZDVjMGU5MzgzOWJhNDJhZTRmNWE5NTdhY2UwMWFlNTQzMTJmMGU0NTI3MTQ5ZmMwZjRiMjA1YWRlNzdjIn0%3D; laravel_session=eyJpdiI6IkhUVDZ1V0N4NlwvSEh0SjBhS2lyUG1RPT0iLCJ2YWx1ZSI6IlNIQmM1cVZSdkZcL2ZOYmU0TDFrODV2ZlIrV3FaWjV5XC9LVmRVVEpEVUJQbzlNWWxsXC9tMndXRFM5am0yWFpkMXc2eklIRTdDcU1adDRUMUVLY3lEWHB3PT0iLCJtYWMiOiJhZDhhMTgwOTNjNjJmYWNjYTljMTdkZTcyMDQxOTliMjRlMDFlZDYyODRiMzRkMzZiN2RmZWRjY2QwMzU3ODVkIn0%3D',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.sugo.com/admin/public/index/marketing/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2657.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sugo.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cupon->index[ F:\phpstudy\WWW\sugoo\admin\application\index\controller\Cupon.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpstudy\WWW\sugoo\admin\public/../application/index\view\cupon\cupon.html [ array (
+  0 => 'page_info',
+  1 => 'page_str',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003099s ] mysql:host=127.0.0.1;port=3306;dbname=shop_mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `su_cupon_batch` [ RunTime:0.083656s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `su_cupon_batch` LIMIT 1 [ RunTime:0.001277s ]
+[ sql ] [ SQL ] SELECT * FROM `su_cupon_batch` ORDER BY cu_id asc LIMIT 0,3 [ RunTime:0.001436s ]
